@@ -68,7 +68,54 @@
         </ownedSystemFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
-          id="b6fee888-ddf1-4316-8846-e0397c020a14" name="Capabilities"/>
+          id="b6fee888-ddf1-4316-8846-e0397c020a14" name="Capabilities">
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="72f11fa3-ce3e-4137-a079-be19e8b031fc" name="Steering control" description="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;>Redirect vehicle heading via hydraulic cylinder, tie rod, and knuckle actuation&lt;/p>&#xA;">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="f6d1e34d-d1a6-4a6f-abdd-b1cddc952aea" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="f94643ab-4801-46ca-aba9-304c1a2a41e2" involved="#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="1b204a4c-8e8a-4f1f-ab31-b49f67000bf8" involved="#30fea4ba-8560-43df-9001-a349e66ac413"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="b6b14b1e-ccbc-4131-ada3-6bc8ad28a837" name="Wheel alignment maintenance"
+            description="&lt;p>Maintain toe, camber, and caster within defined tolerances during operation&lt;/p>&#xA;">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="45d8a043-3e2f-464b-b56b-3a092230465a" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="3c8e8a5f-e42a-4584-9395-1e412c73ea71" involved="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="6b301afb-939d-46a4-aab2-b6adeeb49c4b" name="Terrain adaptation" description="&lt;p>Allow independent articulation at each knuckle to conform to uneven ground&lt;/p>&#xA;">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="839eab0a-805a-4a2a-8c6a-959d6eb624c9" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="2272ceb3-456a-4019-b92d-4cf03e95ee45" involved="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="906eca58-8d5c-4830-bdf1-d5f9ec21f109" name="Structural load bearing">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="1180e111-b19f-44ff-834f-5984f4bfeaa8" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="659184f6-8762-4f76-8e00-a6ba08842460" involved="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="2e494b5b-1df5-49fb-9818-5d04f5eac12d" name="Steering force transmission"
+            description="&lt;p>Transfer hydraulic actuator force to both wheels via kingpin and tie rod&lt;/p>&#xA;">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="698ac768-4c03-48fa-bf5c-3cc07784709b" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="4ed38437-da87-4265-8390-2f9811027646" involved="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+        </ownedCapabilities>
+        <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
+            id="8b065142-affe-4676-8a3d-050790968dbc" name="Maintainability" description="&lt;p>Support inspection, lubrication, and replacement of wear components&lt;/p>&#xA;">
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="b3718ccc-feea-4014-a4b4-41c8adc62824" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="a23f82ad-10a1-4548-8de0-17648872172e" involved="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
+        </ownedCapabilities>
+      </ownedAbstractCapabilityPkg>
       <ownedInterfacePkg xsi:type="org.polarsys.capella.core.data.cs:InterfacePkg"
           id="6be1f3e8-88f8-4a04-9d7d-27562a83fa63" name="Interfaces"/>
       <ownedDataPkg xsi:type="org.polarsys.capella.core.data.information:DataPkg"
@@ -170,6 +217,16 @@
           id="90e21320-a2b9-451c-8094-945f508a91a7" name="Structure">
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="19a0afcd-cb89-4c8f-aa0a-084d80c52ea2"
             name="System" abstractType="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e67819fc-273b-4aec-915e-ceabc9c49d77"
+            name="Grader Super Stucture" abstractType="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fc74658d-2f68-4b14-a078-4c14cf72d719"
+            name="Hydraulic System" abstractType="#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d5761fab-a223-4e62-8ffc-50eeed0de995"
+            name="Enviroment" abstractType="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e7f67458-8bae-4ec5-9417-0803b12474fc"
+            name="Service Personnel" abstractType="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
+        <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="567e6a4f-37e9-430b-8640-812347a415fd"
+            name="Wheels" abstractType="#30fea4ba-8560-43df-9001-a349e66ac413"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="2c51ad46-8784-45cb-b2d5-9ccb97785dc5" name="System">
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
@@ -178,6 +235,18 @@
                 id="63803bc5-dc4b-4f85-8867-15fdbccccf0a" name="Default Region"/>
           </ownedStateMachines>
         </ownedSystemComponents>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="3c6748dd-6712-4f95-a7e7-3f365f4a96d0" name="Grader Super Stucture"
+            actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="f3bdaf56-11c5-44b7-bb93-6010083272d2" name="Hydraulic System" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="c3cf4d86-5263-4667-874c-962c83f0edd7" name="Enviroment" actor="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="0387e20a-5da2-4098-b0c2-92ba05e3d4c0" name="Service Personnel" actor="true"
+            human="true"/>
+        <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
+            id="30fea4ba-8560-43df-9001-a349e66ac413" name="Wheels" actor="true"/>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="3221d049-d567-457f-9a84-3b9c6f5b906c"
           name="Missions"/>
