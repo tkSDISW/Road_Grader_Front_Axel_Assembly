@@ -103,11 +103,15 @@
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="2e494b5b-1df5-49fb-9818-5d04f5eac12d" name="Steering force transmission"
-            description="&lt;p>Transfer hydraulic actuator force to both wheels via kingpin and tie rod&lt;/p>&#xA;">
+            description="Transfer hydraulic actuator force to both wheels via kingpin and tie rod.">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="698ac768-4c03-48fa-bf5c-3cc07784709b" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="4ed38437-da87-4265-8390-2f9811027646" involved="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="a1a37f34-7918-4631-b590-7fafe4692e4c" involved="#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
+          <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
+              id="f6dbb221-8c2e-49ed-85b5-dc19bf2b8ded" involved="#30fea4ba-8560-43df-9001-a349e66ac413"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="8b065142-affe-4676-8a3d-050790968dbc" name="Maintainability" description="&lt;p>Support inspection, lubrication, and replacement of wear components&lt;/p>&#xA;">
