@@ -237,12 +237,12 @@
           </ownedStateMachines>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="3c6748dd-6712-4f95-a7e7-3f365f4a96d0" name="Grader Super Stucture"
+            id="3c6748dd-6712-4f95-a7e7-3f365f4a96d0" name="Grader Super Structure"
             actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="f3bdaf56-11c5-44b7-bb93-6010083272d2" name="Hydraulic System" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
-            id="c3cf4d86-5263-4667-874c-962c83f0edd7" name="Enviroment" actor="true"/>
+            id="c3cf4d86-5263-4667-874c-962c83f0edd7" name="Environment" actor="true"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="0387e20a-5da2-4098-b0c2-92ba05e3d4c0" name="Service Personnel" actor="true"
             human="true"/>
