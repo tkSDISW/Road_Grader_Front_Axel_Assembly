@@ -1,0 +1,16 @@
+{
+  "artifact_id": "d1e97238-afc2-4ac3-81dc-3ca5270adfe7",
+  "name": "Road Grader Front Axle Assembly — CAD Reference Image",
+  "type": "text",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-10T23:08:38.278257Z",
+  "updated_at": "2026-06-10T23:08:38.278292Z",
+  "tags": [
+    "cad",
+    "reference",
+    "physical-architecture",
+    "image"
+  ],
+  "source_tool": "SE Knowledge Partner",
+  "lineage": []
+}
