@@ -94,7 +94,8 @@
               id="2272ceb3-456a-4019-b92d-4cf03e95ee45" involved="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
         </ownedCapabilities>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="906eca58-8d5c-4830-bdf1-d5f9ec21f109" name="Structural load bearing">
+            id="906eca58-8d5c-4830-bdf1-d5f9ec21f109" name="Structural load bearing"
+            description="Carry vertical and lateral loads from vehicle frame to the road surface.">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="1180e111-b19f-44ff-834f-5984f4bfeaa8" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
