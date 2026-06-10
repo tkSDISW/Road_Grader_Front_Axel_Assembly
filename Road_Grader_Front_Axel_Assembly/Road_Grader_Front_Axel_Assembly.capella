@@ -70,7 +70,7 @@
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
           id="b6fee888-ddf1-4316-8846-e0397c020a14" name="Capabilities">
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
-            id="72f11fa3-ce3e-4137-a079-be19e8b031fc" name="Steering control" description="&lt;p class=&quot;font-claude-response-body break-words whitespace-normal&quot;>Redirect vehicle heading via hydraulic cylinder, tie rod, and knuckle actuation&lt;/p>&#xA;">
+            id="72f11fa3-ce3e-4137-a079-be19e8b031fc" name="Steering control" description="Redirect vehicle heading via hydraulic cylinder, tie rod, and knuckle actuation.">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
               id="f6d1e34d-d1a6-4a6f-abdd-b1cddc952aea" involved="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
