@@ -778,6 +778,18 @@
                 id="4dab62dd-7207-433f-af11-f75d63eb5339" targetElement="#480e6640-ebb2-4a25-becc-b3673b91bf92"
                 sourceElement="#fadaae3d-5c31-461d-ab5e-c98d823f48af"/>
           </ownedFunctionalExchanges>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="add0b821-3dbe-4a68-9563-9ee0a793eee1" name="Hydraulic to Cylinder LH"
+              source="#5a3f7029-e06c-44a7-b2b5-73490df645ff" target="#9c813c05-6cfa-4bcf-b005-27d82efdaee8"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="83b0d22b-1ae5-4121-bcca-068bb1dc5c6f" name="Hydraulic to Cylinder RH"
+              source="#5a3f7029-e06c-44a7-b2b5-73490df645ff" target="#f292a89d-8eda-4764-b593-4aad7a7ffc4e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="97d3d945-6b94-4f01-bd64-9a79db68673f" name="Cylinder Displacement LH"
+              source="#9c813c05-6cfa-4bcf-b005-27d82efdaee8" target="#e457db22-5eef-4031-a829-45496e94e074"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="bb217cfc-a513-4bcb-a3a3-04b70ef3e03c" name="Cylinder Displacement RH"
+              source="#f292a89d-8eda-4764-b593-4aad7a7ffc4e" target="#e457db22-5eef-4031-a829-45496e94e074"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
