@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0" xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0" xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_2UBUgGTrEfGKRN7WSSYiFg" selectedViews="_2VetEGTrEfGKRN7WSSYiFg _2WNs4GTrEfGKRN7WSSYiFg _2ahlIGTrEfGKRN7WSSYiFg _2cbpoGTrEfGKRN7WSSYiFg _2dnVYGTrEfGKRN7WSSYiFg _2dvRMGTrEfGKRN7WSSYiFg _2d9ToGTrEfGKRN7WSSYiFg _2eHrsGTrEfGKRN7WSSYiFg" version="15.1.0.202211301600">
     <semanticResources>Road_Grader_Front_Axel_Assembly.afm</semanticResources>
     <semanticResources>Road_Grader_Front_Axel_Assembly.capella</semanticResources>
@@ -17,6 +17,10 @@
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_tosLAGUKEfGKRN7WSSYiFg" name="[MCB] Capabilities" repPath="#_togk0GUKEfGKRN7WSSYiFg" changeId="1781180022881">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Road_Grader_Front_Axel_Assembly.capella#b6fee888-ddf1-4316-8846-e0397c020a14"/>
+      </ownedRepresentationDescriptors>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_BO-k8GWWEfGKRN7WSSYiFg" name="[SAB] Context Diagram" repPath="#_BO9W0GWWEfGKRN7WSSYiFg" changeId="1781183059547">
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#90e21320-a2b9-451c-8094-945f508a91a7"/>
       </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2dnVYGTrEfGKRN7WSSYiFg">
@@ -534,5 +538,138 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='Missions%20Capabilities%20Blank']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
     <target xmi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg" href="Road_Grader_Front_Axel_Assembly.capella#b6fee888-ddf1-4316-8846-e0397c020a14"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_BO9W0GWWEfGKRN7WSSYiFg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BPBoQGWWEfGKRN7WSSYiFg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_BPBoQWWWEfGKRN7WSSYiFg" type="Sirius" element="_BO9W0GWWEfGKRN7WSSYiFg" measurementUnit="Pixel">
+        <children xmi:type="notation:Node" xmi:id="_BPVKQGWWEfGKRN7WSSYiFg" type="2002" element="_BPC2YGWWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_BPVKQ2WWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_BPVKRGWWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_BPVKRWWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_BPVKRmWWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_BPVKQWWWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BPVKQmWWEfGKRN7WSSYiFg" x="260" y="80"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DvXeEGWWEfGKRN7WSSYiFg" type="2002" element="_DvD8EGWWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_DvXeE2WWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DvXeFGWWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DvXeFWWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DvXeFmWWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DvXeEWWWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DvXeEmWWEfGKRN7WSSYiFg" x="980" y="220"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DvXeF2WWEfGKRN7WSSYiFg" type="2002" element="_DvD8E2WWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_DvXeGmWWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DvXeG2WWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DvXeHGWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DvXeHWWWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DvXeGGWWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DvXeGWWWEfGKRN7WSSYiFg" x="990" y="230"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DvXeHmWWEfGKRN7WSSYiFg" type="2002" element="_DvEjIWWWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_DvYFIGWWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DvYFIWWWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DvYFImWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DvYFI2WWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DvXeH2WWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DvXeIGWWEfGKRN7WSSYiFg" x="1000" y="240"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DvYFJGWWEfGKRN7WSSYiFg" type="2002" element="_DvEjJGWWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_DvYFJ2WWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DvYFKGWWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DvYFKWWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DvYFKmWWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DvYFJWWWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DvYFJmWWEfGKRN7WSSYiFg" x="1010" y="250"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_DvYFK2WWEfGKRN7WSSYiFg" type="2002" element="_DvFKMGWWEfGKRN7WSSYiFg">
+          <children xmi:type="notation:Node" xmi:id="_DvYsMGWWEfGKRN7WSSYiFg" type="5006"/>
+          <children xmi:type="notation:Node" xmi:id="_DvYsMWWWEfGKRN7WSSYiFg" type="7001">
+            <styles xmi:type="notation:SortingStyle" xmi:id="_DvYsMmWWEfGKRN7WSSYiFg"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_DvYsM2WWEfGKRN7WSSYiFg"/>
+          </children>
+          <styles xmi:type="notation:ShapeStyle" xmi:id="_DvYFLGWWEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DvYFLWWWEfGKRN7WSSYiFg" x="1020" y="260"/>
+        </children>
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_BPBoQmWWEfGKRN7WSSYiFg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_BPUjMGWWEfGKRN7WSSYiFg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_BPUjMWWWEfGKRN7WSSYiFg"/>
+    </ownedAnnotationEntries>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_BPC2YGWWEfGKRN7WSSYiFg" name="System">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#19a0afcd-cb89-4c8f-aa0a-084d80c52ea2"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#19a0afcd-cb89-4c8f-aa0a-084d80c52ea2"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+      <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
+      <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
+      <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_BPDdcGWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="195,230,255" foregroundColor="150,177,218">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20System']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20System']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DvD8EGWWEfGKRN7WSSYiFg" name="Grader Super Structure">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#e67819fc-273b-4aec-915e-ceabc9c49d77"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#e67819fc-273b-4aec-915e-ceabc9c49d77"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DvD8EWWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="218,253,255" foregroundColor="198,230,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DvD8E2WWEfGKRN7WSSYiFg" name="Hydraulic System">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#fc74658d-2f68-4b14-a078-4c14cf72d719"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#fc74658d-2f68-4b14-a078-4c14cf72d719"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DvD8FGWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="218,253,255" foregroundColor="198,230,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DvEjIWWWEfGKRN7WSSYiFg" name="Environment">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#d5761fab-a223-4e62-8ffc-50eeed0de995"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#d5761fab-a223-4e62-8ffc-50eeed0de995"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DvEjImWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="218,253,255" foregroundColor="198,230,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DvEjJGWWEfGKRN7WSSYiFg" name="Service Personnel">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#e7f67458-8bae-4ec5-9417-0803b12474fc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#e7f67458-8bae-4ec5-9417-0803b12474fc"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DvEjJWWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="218,253,255" foregroundColor="198,230,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']"/>
+    </ownedDiagramElements>
+    <ownedDiagramElements xmi:type="diagram:DNodeContainer" uid="_DvFKMGWWEfGKRN7WSSYiFg" name="Wheels">
+      <target xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#567e6a4f-37e9-430b-8640-812347a415fd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.cs:Part" href="Road_Grader_Front_Axel_Assembly.capella#567e6a4f-37e9-430b-8640-812347a415fd"/>
+      <semanticElements xmi:type="org.polarsys.capella.core.data.ctx:SystemComponent" href="Road_Grader_Front_Axel_Assembly.capella#30fea4ba-8560-43df-9001-a349e66ac413"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_DvFKMWWWEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="74,74,151" backgroundStyle="GradientTopToBottom" backgroundColor="218,253,255" foregroundColor="198,230,255">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']/@style"/>
+      </ownedStyle>
+      <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer/@containerMappings[name='System%20Actors']"/>
+    </ownedDiagramElements>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@filters[name='hide.simplified.group.of.component.exchanges.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@filters[name='hide.simplified.oriented.grouped.component.exchanges.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@filters[name='hide.sequencing.information.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@filters[name='hide.overlappedphysical.paths.label.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@filters[name='hide.overlappedfunctional.chains.label.filter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_BO9W0WWWEfGKRN7WSSYiFg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
+    <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#90e21320-a2b9-451c-8094-945f508a91a7"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
