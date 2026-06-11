@@ -244,3 +244,45 @@ SA → LA transition produced the following automatically:
 4. Build [LAB] CAP-01 Steering Control diagram
 5. Define logical functional chain realizing SA Steering Control chain
 
+---
+
+## 2026-06-11T15:50:08Z — milestone
+
+## Session: LA CAP-01 — Logical Functions and Allocations
+
+### Patches applied
+
+| Commit | Change |
+|---|---|
+| 1dfcb619 | Added 3 new logical functions — LH/RH cylinder decomposition + valve routing |
+| 5ab61388 | Allocated all logical functions to sub-components and actors |
+
+### New logical functions
+
+| Function | UUID | Allocated To |
+|---|---|---|
+| Route hydraulic pressure to cylinder | 5a3f7029 | Steering Hydraulic Valve |
+| Actuate steering cylinder LH | 9c813c05 | Steering Cylinder LH |
+| Actuate steering cylinder RH | f292a89d | Steering Cylinder RH |
+
+### Full function allocation map
+
+| Component | Allocated Functions |
+|---|---|
+| Steering Hydraulic Valve | Route hydraulic pressure to cylinder, Transmit steering command to wheels |
+| Steering Cylinder LH | Actuate steering cylinder LH |
+| Steering Cylinder RH | Actuate steering cylinder RH |
+| Tie Rod Assembly | Synchronize wheel steering angles |
+| Steering Knuckle LH | Actuate steering cylinder (SA parent) |
+| Steering Stop Assembly | Limit steering travel |
+| Hydraulic System (actor) | Supply Steering hydraulic pressure |
+| Grader Super Structure (actor) | Apply structural load to axle |
+| Wheels (actor) | Receive steering angle output, Transmit load to road surface |
+| Environment (actor) | Apply terrain loads, Adapt to terrain variation |
+| Service Personnel (actor) | Inspect assembly condition, Lubricate wear components, Replace wear components, Provide access for maintenance |
+
+### Notes
+- push_model_changes returned opaque PushInfo object on first attempt — required session cleanup and re-clone to recover. Logged as ISSUE-010 candidate.
+- Remaining LA work: component exchanges between sub-components, [LAB] CAP-01 diagram, logical functional chain
+
+
