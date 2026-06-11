@@ -731,6 +731,15 @@
                 id="ecc35603-0760-4317-9fbd-630085c59df3" targetElement="#716b9407-99e5-432d-8f11-2bfaf05cb7a6"
                 sourceElement="#25c15598-3fd3-414e-9b1a-7131863cec17"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="9c813c05-6cfa-4bcf-b005-27d82efdaee8" description="Convert hydraulic pressure into linear rod displacement in the left-hand steering cylinder to drive the left knuckle to the commanded angle."
+              name="Actuate steering cylinder LH"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f292a89d-8eda-4764-b593-4aad7a7ffc4e" description="Convert hydraulic pressure into linear rod displacement in the right-hand steering cylinder to provide redundant and symmetric steering actuation force."
+              name="Actuate steering cylinder RH"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="5a3f7029-e06c-44a7-b2b5-73490df645ff" description="Open the directional control valve and route pressurised fluid to the appropriate cylinder port in response to the steering command signal."
+              name="Route hydraulic pressure to cylinder"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="82cb6697-0ee6-4211-ad3b-6e7381c3a14d" targetElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"
               sourceElement="#4a5581c2-2cc8-4819-9b42-c8c260343a47"/>
