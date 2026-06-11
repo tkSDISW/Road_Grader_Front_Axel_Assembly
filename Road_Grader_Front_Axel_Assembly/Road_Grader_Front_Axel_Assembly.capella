@@ -1052,6 +1052,8 @@
               name="Camber Assembly" abstractType="#d308fd4f-63a9-4d88-a831-514bb9babd49"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bd7e3ef5-6363-4605-89a2-bd9772c9fd20"
               name="Camber Actuator" abstractType="#ee8b572a-039a-4b62-90dc-c793af0cb914"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="71e2f04a-2ba6-4ee7-bd63-2482063b1fbe"
+              name="this is a demo" abstractType="#02044c0d-8f68-407e-a171-e2f702899ed7"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="f5ea787d-c7c6-4b4a-81ee-49fa24aa56ae" targetElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"
               sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
@@ -1184,6 +1186,9 @@
                 id="e390aa6f-2168-4a13-823c-36128942d656" name="CP 2" orientation="INOUT"
                 kind="FLOW"/>
           </ownedLogicalComponents>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="02044c0d-8f68-407e-a171-e2f702899ed7" description="Temporary demo component. Please delete after demonstration."
+              name="this is a demo"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="ee8b572a-039a-4b62-90dc-c793af0cb914" name="Camber Actuator" description="Hydraulic actuator that applies camber adjustment force directly to the right steering knuckle. The Camber Assembly transfers the resulting geometric change symmetrically to the left knuckle.">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
