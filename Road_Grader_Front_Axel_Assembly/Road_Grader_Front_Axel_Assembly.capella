@@ -69,6 +69,14 @@
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.ctx:CapabilityPkg"
           id="b6fee888-ddf1-4316-8846-e0397c020a14" name="Capabilities">
+        <ownedConstraints xsi:type="org.polarsys.capella.core.data.capellacore:Constraint"
+            id="10b80863-a675-41ea-bb34-b5d95d3b0c4d" name="">
+          <ownedSpecification xsi:type="org.polarsys.capella.core.data.information.datavalue:OpaqueExpression"
+              id="3ced0a4b-5d82-4e48-a175-d6bd48f7a7fe">
+            <bodies></bodies>
+            <languages>capella:linkedText</languages>
+          </ownedSpecification>
+        </ownedConstraints>
         <ownedCapabilities xsi:type="org.polarsys.capella.core.data.ctx:Capability"
             id="72f11fa3-ce3e-4137-a079-be19e8b031fc" name="Steering control" description="Redirect vehicle heading via hydraulic cylinder, tie rod, and knuckle actuation.">
           <ownedCapabilityInvolvements xsi:type="org.polarsys.capella.core.data.ctx:CapabilityInvolvement"
@@ -223,11 +231,11 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="19a0afcd-cb89-4c8f-aa0a-084d80c52ea2"
             name="System" abstractType="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e67819fc-273b-4aec-915e-ceabc9c49d77"
-            name="Grader Super Stucture" abstractType="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
+            name="Grader Super Structure" abstractType="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="fc74658d-2f68-4b14-a078-4c14cf72d719"
             name="Hydraulic System" abstractType="#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="d5761fab-a223-4e62-8ffc-50eeed0de995"
-            name="Enviroment" abstractType="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
+            name="Environment" abstractType="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="e7f67458-8bae-4ec5-9417-0803b12474fc"
             name="Service Personnel" abstractType="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="567e6a4f-37e9-430b-8640-812347a415fd"
