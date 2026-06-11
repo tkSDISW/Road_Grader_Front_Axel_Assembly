@@ -285,4 +285,49 @@ SA → LA transition produced the following automatically:
 - push_model_changes returned opaque PushInfo object on first attempt — required session cleanup and re-clone to recover. Logged as ISSUE-010 candidate.
 - Remaining LA work: component exchanges between sub-components, [LAB] CAP-01 diagram, logical functional chain
 
+---
+
+## 2026-06-11T18:05:14Z — milestone
+
+## Session: [LAB] Structure — Typo Fixes and Exchange Naming
+
+### Patches applied
+
+| Commit | Change |
+|---|---|
+| e4e31a70 | Fixed 4 component name typos |
+| 993a9253 | Named 14 internal component exchanges C1-C11 plus camber circuit |
+
+### Typo fixes
+
+| Old Name | New Name |
+|---|---|
+| Steering Hydralic Valve | Steering Hydraulic Valve |
+| Reigh WHeel | Right Wheel |
+| Right Wheel HUb | Right Wheel Hub |
+| Kingpin Axel Assembly | Kingpin Axle Assembly |
+
+### Exchange names assigned
+
+| Exchange | Name |
+|---|---|
+| C 1 | Cylinder Force RH |
+| C 2 | Cylinder Force LH |
+| C 3 | Kingpin Pivot Load RH |
+| C 4 | Kingpin Pivot Load LH |
+| C 5 | Steering Angle RH |
+| C 6 | Steering Angle LH |
+| C 7 | Tie Rod Sync Force RH |
+| C 8 | Tie Rod Sync Force LH |
+| C 6 (Right Wheel) | Wheel Rotation RH |
+| C 9 | Camber Adjustment RH |
+| C 10 | Camber Adjustment LH |
+| C 7 (Camber circuit) | Camber Hydraulic Supply |
+| C 8 (Camber circuit) | Camber Hydraulic Return |
+| C 11 | Camber Actuator Force RH |
+
+### Open items remaining from [LAB] Structure review
+- Reallocate SA-era Actuate steering cylinder (a74224d3) away from Steering Knuckle LH
+- Clarify asymmetric camber — Camber Actuator Force RH only, no LH equivalent
+- Add Steering Angle Output exchange on right wheel side to match left
 
