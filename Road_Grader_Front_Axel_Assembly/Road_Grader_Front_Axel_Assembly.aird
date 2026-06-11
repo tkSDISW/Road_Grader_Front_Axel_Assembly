@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0" xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0" xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0" xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/6.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:concern="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:diagram="http://www.eclipse.org/sirius/diagram/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:filter="http://www.eclipse.org/sirius/diagram/description/filter/1.1.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:org.polarsys.capella.core.data.capellacore="http://www.polarsys.org/capella/core/core/6.0.0" xmlns:org.polarsys.capella.core.data.cs="http://www.polarsys.org/capella/core/cs/6.0.0" xmlns:org.polarsys.capella.core.data.ctx="http://www.polarsys.org/capella/core/ctx/6.0.0" xmlns:org.polarsys.capella.core.data.fa="http://www.polarsys.org/capella/core/fa/6.0.0" xmlns:org.polarsys.capella.core.data.information="http://www.polarsys.org/capella/core/information/6.0.0" xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:viewpoint="http://www.eclipse.org/sirius/1.1.0" xsi:schemaLocation="http://www.eclipse.org/sirius/diagram/description/concern/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/concern http://www.eclipse.org/sirius/description/1.1.0 http://www.eclipse.org/sirius/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description http://www.eclipse.org/sirius/diagram/description/filter/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/filter http://www.eclipse.org/sirius/diagram/description/style/1.1.0 http://www.eclipse.org/sirius/diagram/1.1.0#//description/style">
   <viewpoint:DAnalysis uid="_2UBUgGTrEfGKRN7WSSYiFg" selectedViews="_2VetEGTrEfGKRN7WSSYiFg _2WNs4GTrEfGKRN7WSSYiFg _2ahlIGTrEfGKRN7WSSYiFg _2cbpoGTrEfGKRN7WSSYiFg _2dnVYGTrEfGKRN7WSSYiFg _2dvRMGTrEfGKRN7WSSYiFg _2d9ToGTrEfGKRN7WSSYiFg _2eHrsGTrEfGKRN7WSSYiFg" version="15.1.0.202211301600">
     <semanticResources>Road_Grader_Front_Axel_Assembly.afm</semanticResources>
     <semanticResources>Road_Grader_Front_Axel_Assembly.capella</semanticResources>
@@ -8,6 +8,14 @@
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2WNs4GTrEfGKRN7WSSYiFg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']"/>
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_zZKkgGW9EfGKRN7WSSYiFg" name="[LAB] Structure" repPath="#_zZFsAGW9EfGKRN7WSSYiFg" changeId="1781200131038">
+        <eAnnotations xmi:type="description:DAnnotation" uid="_zZQEEGW9EfGKRN7WSSYiFg" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZQEEWW9EfGKRN7WSSYiFg" key="hide.computed.component.exchanges.filter" value="true"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zZQEEmW9EfGKRN7WSSYiFg" key="hide.computed.physical.links.filter" value="true"/>
+        </eAnnotations>
+        <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
+        <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#c0c47829-de12-4448-93b2-858c390c1ca8"/>
+      </ownedRepresentationDescriptors>
     </ownedViews>
     <ownedViews xmi:type="viewpoint:DView" uid="_2ahlIGTrEfGKRN7WSSYiFg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']"/>
@@ -2213,19 +2221,19 @@
     <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_T50Z0GWeEfGKRN7WSSYiFg" source="DANNOTATION_CUSTOMIZATION_KEY">
       <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_T50Z0WWeEfGKRN7WSSYiFg"/>
     </ownedAnnotationEntries>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5kiMGWeEfGKRN7WSSYiFg" target="0460acb8-e9f3-4dd9-b2e8-5a3bf369664a" name="Transmit steering command to wheels" semanticElements="0460acb8-e9f3-4dd9-b2e8-5a3bf369664a 137fe6fa-0eac-45d4-804a-dfd27681c526" outgoingEdges="_WSI8HGWeEfGKRN7WSSYiFg" incomingEdges="_T5oMkGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5kiMGWeEfGKRN7WSSYiFg" name="Transmit steering command to wheels" outgoingEdges="_WSI8HGWeEfGKRN7WSSYiFg" incomingEdges="_T5oMkGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:Square" uid="_T5lwUGWeEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5lwUmWeEfGKRN7WSSYiFg" target="ffacaa01-87fb-4e68-8cf2-6f5628a7aaea" name="Actuate steering cylinder" semanticElements="ffacaa01-87fb-4e68-8cf2-6f5628a7aaea 764375a8-504c-4ac8-9df3-1522961d28a5" outgoingEdges="_T5ozpGWeEfGKRN7WSSYiFg" incomingEdges="_WSI8HGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5lwUmWeEfGKRN7WSSYiFg" name="Actuate steering cylinder" outgoingEdges="_T5ozpGWeEfGKRN7WSSYiFg" incomingEdges="_WSI8HGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:Square" uid="_T5mXYGWeEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXYmWeEfGKRN7WSSYiFg" target="209ab434-8bb2-4a01-9092-2d8ea9c19824" name="Supply Steering hydraulic pressure" semanticElements="209ab434-8bb2-4a01-9092-2d8ea9c19824 c5a16d27-3df5-4974-8cc7-93d061970594" outgoingEdges="_T5oMkGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXYmWeEfGKRN7WSSYiFg" name="Supply Steering hydraulic pressure" outgoingEdges="_T5oMkGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -2234,19 +2242,19 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXZWWeEfGKRN7WSSYiFg" target="23093802-30ee-40d6-8ce9-37e77cd37899" name="Limit steering travel" semanticElements="23093802-30ee-40d6-8ce9-37e77cd37899 f6f7d22d-407f-41b3-87db-bb76b2a34f87" outgoingEdges="_XjzYUGWeEfGKRN7WSSYiFg" incomingEdges="_T5patGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXZWWeEfGKRN7WSSYiFg" name="Limit steering travel" outgoingEdges="_XjzYUGWeEfGKRN7WSSYiFg" incomingEdges="_T5patGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:Square" uid="_T5mXZmWeEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXaGWeEfGKRN7WSSYiFg" target="a1017b03-c2da-4d58-aad1-1e8100320437" name="Synchronize wheel steering angles" semanticElements="a1017b03-c2da-4d58-aad1-1e8100320437 d6faf5f2-f880-4052-93c9-11aaeb547497" outgoingEdges="_T5patGWeEfGKRN7WSSYiFg" incomingEdges="_T5ozpGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5mXaGWeEfGKRN7WSSYiFg" name="Synchronize wheel steering angles" outgoingEdges="_T5patGWeEfGKRN7WSSYiFg" incomingEdges="_T5ozpGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <ownedStyle xmi:type="diagram:Square" uid="_T5mXaWWeEfGKRN7WSSYiFg" borderSize="1" borderSizeComputationExpression="1" borderColor="9,92,46" labelPosition="node" width="10" height="5" color="197,255,166">
         <description xmi:type="style:SquareDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']/@style"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/common.odesign#//@ownedViewpoints[name='Common']/@ownedRepresentations[name='Functional%20Chain%20Description']/@defaultLayer/@nodeMappings[name='FC_AbstractFunction']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5m-cWWeEfGKRN7WSSYiFg" target="4e240654-c6a1-43b7-b98f-594409709ac6" name="Receive steering angle output" semanticElements="4e240654-c6a1-43b7-b98f-594409709ac6 80b26fb6-4690-424c-b084-5bb82b640fd6" incomingEdges="_XjzYUGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
+    <ownedDiagramElements xmi:type="diagram:DNode" uid="_T5m-cWWeEfGKRN7WSSYiFg" name="Receive steering angle output" incomingEdges="_XjzYUGWeEfGKRN7WSSYiFg" width="10" height="5" resizeKind="NSEW">
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
@@ -3446,5 +3454,28 @@
     <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/context.odesign#//@ownedViewpoints[name='System%20Analysis']/@ownedRepresentations[name='System%20Architecture%20Blank']/@defaultLayer"/>
     <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
     <target xmi:type="org.polarsys.capella.core.data.ctx:SystemComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#90e21320-a2b9-451c-8094-945f508a91a7"/>
+  </diagram:DSemanticDiagram>
+  <diagram:DSemanticDiagram uid="_zZFsAGW9EfGKRN7WSSYiFg">
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zZPdAGW9EfGKRN7WSSYiFg" source="GMF_DIAGRAMS">
+      <data xmi:type="notation:Diagram" xmi:id="_zZPdAWW9EfGKRN7WSSYiFg" type="Sirius" element="_zZFsAGW9EfGKRN7WSSYiFg" measurementUnit="Pixel">
+        <styles xmi:type="notation:DiagramStyle" xmi:id="_zZPdAmW9EfGKRN7WSSYiFg"/>
+      </data>
+    </ownedAnnotationEntries>
+    <ownedAnnotationEntries xmi:type="description:AnnotationEntry" uid="_zZ0r0GW9EfGKRN7WSSYiFg" source="DANNOTATION_CUSTOMIZATION_KEY">
+      <data xmi:type="diagram:ComputedStyleDescriptionRegistry" uid="_zZ0r0WW9EfGKRN7WSSYiFg"/>
+    </ownedAnnotationEntries>
+    <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
+    <currentConcern xmi:type="concern:ConcernDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@concerns/@ownedConcernDescriptions.0"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.sequencing.information.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.overlappedphysical.paths.label.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.kitalpha.ad.integration.sirius/description/ad.odesign#//@ownedViewpoints[name='ad']/@ownedRepresentations[name='AD%20diagram']/@filters[name='ModelExtensionFilter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.overlappedfunctional.chains.label.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.simplified.group.of.component.exchanges.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.simplified.oriented.grouped.component.exchanges.filter']"/>
+    <activatedFilters xmi:type="filter:CompositeFilterDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@filters[name='hide.simplified.diagram.based.component.exchanges.filter']"/>
+    <filterVariableHistory xmi:type="diagram:FilterVariableHistory" uid="_zZFsAWW9EfGKRN7WSSYiFg"/>
+    <activatedLayers xmi:type="description_1:Layer" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']/@defaultLayer"/>
+    <activatedLayers xmi:type="description_1:AdditionalLayer" href="platform:/plugin/fr.obeo.plm.vp.requirements.design/description/PlmRequirements.odesign#//@ownedViewpoints[name='PlmRequirements_ID']/@ownedRepresentationExtensions[name='PlmViewpoints']/@layers[name='PLM_Requirements_Layer']"/>
+    <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#c0c47829-de12-4448-93b2-858c390c1ca8"/>
   </diagram:DSemanticDiagram>
 </xmi:XMI>
