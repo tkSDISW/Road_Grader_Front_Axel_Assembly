@@ -292,20 +292,23 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="567e6a4f-37e9-430b-8640-812347a415fd"
             name="Wheels" abstractType="#30fea4ba-8560-43df-9001-a349e66ac413"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="7b249093-12ae-4a34-8c4f-1a3473488b1b" name="C 1" source="#664c9c62-b7a7-47c7-9147-66ab360da994"
-            target="#266fb85e-653f-4240-9bd4-3113877f0491" kind="FLOW"/>
+            id="7b249093-12ae-4a34-8c4f-1a3473488b1b" name="Hydraulic Steering Supply"
+            source="#664c9c62-b7a7-47c7-9147-66ab360da994" target="#266fb85e-653f-4240-9bd4-3113877f0491"
+            kind="FLOW"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="59ace9b5-51b7-486e-b5a7-7dabb8cf7c7d" name="C 2" source="#23e60186-144c-434c-9020-8ff043481d5f"
-            target="#afeec33f-7277-4e18-b487-34ffa07d6903" kind="FLOW"/>
+            id="59ace9b5-51b7-486e-b5a7-7dabb8cf7c7d" name="Structural Load Transfer"
+            source="#23e60186-144c-434c-9020-8ff043481d5f" target="#afeec33f-7277-4e18-b487-34ffa07d6903"
+            kind="FLOW"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="4df6c88a-9fd2-4112-8dd6-c61508b1216c" name="C 3" source="#e820325d-affe-4ac7-893a-adb9ecda1e45"
+            id="4df6c88a-9fd2-4112-8dd6-c61508b1216c" name="Terrain Load Input" source="#e820325d-affe-4ac7-893a-adb9ecda1e45"
             target="#91ba52a1-3df4-4c0b-aee6-0cf900ddbb31" kind="FLOW"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="ee50e129-63f4-461d-b86d-307cedc98afd" name="C 4" source="#67dd63ce-3ba4-4ff2-88c7-41444188834a"
+            id="ee50e129-63f4-461d-b86d-307cedc98afd" name="Maintenance Access" source="#67dd63ce-3ba4-4ff2-88c7-41444188834a"
             target="#f1dc0c44-4879-4aec-adae-55ba40640942" kind="FLOW"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="308e1c11-b600-4b84-88d8-9ca207eeab65" name="C 5" source="#096b0a17-98bb-4f15-938e-ce4b4da05244"
-            target="#1d3bb17f-e684-412d-906c-9e6a179a5282" kind="FLOW"/>
+            id="308e1c11-b600-4b84-88d8-9ca207eeab65" name="Steering Angle Output"
+            source="#096b0a17-98bb-4f15-938e-ce4b4da05244" target="#1d3bb17f-e684-412d-906c-9e6a179a5282"
+            kind="FLOW"/>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="2c51ad46-8784-45cb-b2d5-9ccb97785dc5" name="System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
