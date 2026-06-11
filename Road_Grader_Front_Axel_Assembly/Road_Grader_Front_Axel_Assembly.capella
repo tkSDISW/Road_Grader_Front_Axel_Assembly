@@ -364,8 +364,8 @@
               id="20ff22ad-7825-46d9-8c2c-cb0b3938fe37" targetElement="#203ecdd3-977c-4dcb-ad15-5dba67013554"
               sourceElement="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="23e60186-144c-434c-9020-8ff043481d5f" name="CP 1" orientation="OUT"
-              kind="FLOW"/>
+              id="23e60186-144c-434c-9020-8ff043481d5f" name="Port — Structural Load Transfer"
+              orientation="OUT" kind="FLOW"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="f3bdaf56-11c5-44b7-bb93-6010083272d2" name="Hydraulic System" description="The vehicle hydraulic circuit that supplies pressurised fluid to the steering cylinder. Acts as the energy source for all active steering functions."
@@ -377,8 +377,8 @@
               id="208bfbe2-daf8-43ea-a473-e7f492b35f5a" targetElement="#27fbfc7b-d42d-4d0c-8a80-053eea20f4c1"
               sourceElement="#f3bdaf56-11c5-44b7-bb93-6010083272d2"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="664c9c62-b7a7-47c7-9147-66ab360da994" name="CP 1" orientation="INOUT"
-              kind="FLOW"/>
+              id="664c9c62-b7a7-47c7-9147-66ab360da994" name="Port — Hydraulic Steering Supply"
+              orientation="INOUT" kind="FLOW"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="c3cf4d86-5263-4667-874c-962c83f0edd7" name="Environment" description="The external physical environment in which the assembly operates. Includes terrain variation, road surface conditions, and environmental loads that the assembly must adapt to."
@@ -387,8 +387,8 @@
               id="07c448f4-3fb8-4391-9f9f-151e017a6804" targetElement="#605a6083-1a10-42a4-aedf-d6e13301d4dd"
               sourceElement="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="e820325d-affe-4ac7-893a-adb9ecda1e45" name="CP 1" orientation="OUT"
-              kind="FLOW"/>
+              id="e820325d-affe-4ac7-893a-adb9ecda1e45" name="Port — Terrain Load Input"
+              orientation="OUT" kind="FLOW"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="0387e20a-5da2-4098-b0c2-92ba05e3d4c0" name="Service Personnel" description="Maintenance and service technicians responsible for inspection, lubrication, adjustment, and replacement of wear components on the front axle assembly."
@@ -403,8 +403,8 @@
               id="5b707da3-5c78-472f-9db1-20f08ef51b5b" targetElement="#868c4f0a-73e9-4940-be7a-8aaa1f8840fa"
               sourceElement="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="67dd63ce-3ba4-4ff2-88c7-41444188834a" name="CP 1" orientation="OUT"
-              kind="FLOW"/>
+              id="67dd63ce-3ba4-4ff2-88c7-41444188834a" name="Port — Maintenance Access"
+              orientation="OUT" kind="FLOW"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="30fea4ba-8560-43df-9001-a349e66ac413" name="Wheels" description="The front wheels and tyres mounted to the axle assembly. Receive steering angle output from the knuckles and transmit all vehicle loads to the road surface."
@@ -416,8 +416,8 @@
               id="5420cd33-daf3-45af-94cb-1d0f3a4fc2e0" targetElement="#80b26fb6-4690-424c-b084-5bb82b640fd6"
               sourceElement="#30fea4ba-8560-43df-9001-a349e66ac413"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="1d3bb17f-e684-412d-906c-9e6a179a5282" name="CP 1" orientation="IN"
-              kind="FLOW"/>
+              id="1d3bb17f-e684-412d-906c-9e6a179a5282" name="Port — Steering Angle Output"
+              orientation="IN" kind="FLOW"/>
         </ownedSystemComponents>
       </ownedSystemComponentPkg>
       <ownedMissionPkg xsi:type="org.polarsys.capella.core.data.ctx:MissionPkg" id="3221d049-d567-457f-9a84-3b9c6f5b906c"
