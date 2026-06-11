@@ -402,3 +402,30 @@ A symmetric equivalent should also be considered for Steering Knuckle LH once th
 - Steering Knuckle LH still has SA-era `Actuate steering cylinder` misallocated (open item from 2026-06-11 [LAB] Structure review session)
 - Steering Stop Assembly (uuid: a618c726) has `Limit steering travel` allocated correctly — no issue there
 
+---
+
+## 2026-06-11T19:58:24Z — milestone
+
+## ISSUE RESOLVED: Steering Knuckle RH — missing function allocated
+
+### Patches applied
+
+| Commit | Change |
+|---|---|
+| 1a06202d | Created LogicalFunction: Deflect right wheel to steering angle |
+| 86f834ca | Allocated function to Steering Knuckle RH (uuid: 216a03d6) |
+
+### Function created
+
+| Field | Value |
+|---|---|
+| Name | Deflect right wheel to steering angle |
+| UUID | c24b4e23-2022-4609-a27e-d164f0a8819c |
+| Type | LogicalFunction |
+| Layer | LA |
+| Allocated to | Steering Knuckle RH |
+| Description | Rotate about the kingpin axis under cylinder and tie rod input forces to deflect the right wheel hub to the commanded steering angle. |
+
+### Still open
+- Steering Knuckle LH: create symmetric function Deflect left wheel to steering angle and reallocate away from SA-era Actuate steering cylinder
+
