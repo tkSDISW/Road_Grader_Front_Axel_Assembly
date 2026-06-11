@@ -892,56 +892,65 @@
               sourceElement="#1db1eb0b-f769-4c8f-991f-ebb5f56c0eb6"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="adf49c7c-5f74-42e2-884a-c4f890cb7459" name="C 6" source="#5a4ececf-fae1-4b06-887b-bf6976c548ec"
+            id="adf49c7c-5f74-42e2-884a-c4f890cb7459" name="Wheel Rotation RH" source="#5a4ececf-fae1-4b06-887b-bf6976c548ec"
             target="#500a7f2e-fbb1-4aea-aaa5-f556edd875cd" kind="FLOW">
           <ownedComponentExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeRealization"
               id="2e0df1a3-50fa-4fc0-a909-9199b5549e6f" targetElement="#308e1c11-b600-4b84-88d8-9ca207eeab65"
               sourceElement="#adf49c7c-5f74-42e2-884a-c4f890cb7459"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="3b5ed0e4-7c0a-4b77-9f15-ee9885c2dc3a" name="C 7" source="#cccb3090-cf84-4288-be99-35202fe401b6"
-            target="#b9a59338-25c7-40eb-a053-287cdf21d482" kind="FLOW"/>
+            id="3b5ed0e4-7c0a-4b77-9f15-ee9885c2dc3a" name="Camber Hydraulic Supply"
+            source="#cccb3090-cf84-4288-be99-35202fe401b6" target="#b9a59338-25c7-40eb-a053-287cdf21d482"
+            kind="FLOW"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="e32f460f-733a-4003-ac16-fbc899805c7d" name="C 8" source="#5c0dc2c7-e1b5-4d0c-8d03-106daad136e9"
-            target="#31596d7d-bc73-4f4e-9cd1-68d3e29185cc" kind="FLOW"/>
+            id="e32f460f-733a-4003-ac16-fbc899805c7d" name="Camber Hydraulic Return"
+            source="#5c0dc2c7-e1b5-4d0c-8d03-106daad136e9" target="#31596d7d-bc73-4f4e-9cd1-68d3e29185cc"
+            kind="FLOW"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="f4817489-36e0-43e7-9985-fc2ba2475dd3" name="Logical System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="47860e76-88f4-460e-bc57-b95026d24b96" targetElement="#44ed08e7-2517-4bdf-91d8-4a98f5426a42"
               sourceElement="#43852a38-9551-4cdb-8f89-9ffc250d3764"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="996b929e-fb85-43dd-93cf-fe43f0ddc338" name="C 1" source="#e3aeb4f1-bf7b-4517-b7d6-99326d714e74"
+              id="996b929e-fb85-43dd-93cf-fe43f0ddc338" name="Cylinder Force RH" source="#e3aeb4f1-bf7b-4517-b7d6-99326d714e74"
               target="#0de5a7b8-bbb1-429d-9e67-6307002b501c" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="39e4aa41-4668-4046-b473-3d830c63282b" name="C 2" source="#f36bca91-2036-4a4a-aa77-9ebdd4a4d961"
+              id="39e4aa41-4668-4046-b473-3d830c63282b" name="Cylinder Force LH" source="#f36bca91-2036-4a4a-aa77-9ebdd4a4d961"
               target="#bcf4c782-6da5-4f89-84cc-f8c2b82e92be" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="78833070-149d-4423-85bf-65c9bf50bcc2" name="C 3" source="#c2555e5c-6866-43ca-b4dc-f4aac76a2105"
-              target="#a21f76a9-4248-4f48-bf84-93abb3ffda5e" kind="FLOW"/>
+              id="78833070-149d-4423-85bf-65c9bf50bcc2" name="Kingpin Pivot Load RH"
+              source="#c2555e5c-6866-43ca-b4dc-f4aac76a2105" target="#a21f76a9-4248-4f48-bf84-93abb3ffda5e"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="14d64aca-1ccd-4a64-8699-7cf1639983ff" name="C 4" source="#4386c8e8-00fb-480a-a3fd-171ad6fbca47"
-              target="#d2dc74b5-0d23-4597-a4da-72b23bc131e4" kind="FLOW"/>
+              id="14d64aca-1ccd-4a64-8699-7cf1639983ff" name="Kingpin Pivot Load LH"
+              source="#4386c8e8-00fb-480a-a3fd-171ad6fbca47" target="#d2dc74b5-0d23-4597-a4da-72b23bc131e4"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="8a958a25-3fc5-4315-b690-6fb3bda26f63" name="C 5" source="#e7c8c2a0-5977-4568-a60d-0440d21e4ca7"
+              id="8a958a25-3fc5-4315-b690-6fb3bda26f63" name="Steering Angle RH" source="#e7c8c2a0-5977-4568-a60d-0440d21e4ca7"
               target="#e8c78bae-dbb2-4176-a13f-05ffca68f53e" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="7ca0589b-9290-499d-ac98-4852881b2f3d" name="C 6" source="#8cf927d0-bb17-47ae-888d-3ee4776448b2"
+              id="7ca0589b-9290-499d-ac98-4852881b2f3d" name="Steering Angle LH" source="#8cf927d0-bb17-47ae-888d-3ee4776448b2"
               target="#f7091c0a-67c3-44fc-81e2-872b19e577a3" kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="c4704d46-f50e-42bd-8911-140226003aa8" name="C 7" source="#4f97651c-f343-44c9-a7e2-bded261eef5c"
-              target="#8afeb62d-c468-4753-bb96-16989ac1af3a" kind="FLOW"/>
+              id="c4704d46-f50e-42bd-8911-140226003aa8" name="Tie Rod Sync Force RH"
+              source="#4f97651c-f343-44c9-a7e2-bded261eef5c" target="#8afeb62d-c468-4753-bb96-16989ac1af3a"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="1ea280f9-b257-49b7-b164-a147f5c4a553" name="C 8" source="#63eb20a6-9ae6-48a6-8b14-2cf2d8f75482"
-              target="#c397ed78-851f-4cba-b557-578a9bd7197a" kind="FLOW"/>
+              id="1ea280f9-b257-49b7-b164-a147f5c4a553" name="Tie Rod Sync Force LH"
+              source="#63eb20a6-9ae6-48a6-8b14-2cf2d8f75482" target="#c397ed78-851f-4cba-b557-578a9bd7197a"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="58f4b446-6c15-447a-81b4-cf8ed9585ab6" name="C 9" source="#051a9553-14fa-4dbf-8f90-03938867d1a0"
-              target="#32fb2cf2-7933-4181-a01a-50a7ea3b95ae" kind="FLOW"/>
+              id="58f4b446-6c15-447a-81b4-cf8ed9585ab6" name="Camber Adjustment RH"
+              source="#051a9553-14fa-4dbf-8f90-03938867d1a0" target="#32fb2cf2-7933-4181-a01a-50a7ea3b95ae"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="71115408-6dc0-4cf1-943d-c89e637c99ee" name="C 10" source="#e390aa6f-2168-4a13-823c-36128942d656"
-              target="#46964368-8749-4eb9-b5c1-8bfe715fd41c" kind="FLOW"/>
+              id="71115408-6dc0-4cf1-943d-c89e637c99ee" name="Camber Adjustment LH"
+              source="#e390aa6f-2168-4a13-823c-36128942d656" target="#46964368-8749-4eb9-b5c1-8bfe715fd41c"
+              kind="FLOW"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-              id="401f15ab-2b17-45ce-aaac-95074b2bcec1" name="C 11" source="#86bbda22-4d71-433f-922f-f10662c2e64c"
-              target="#1f5cb8e5-aef9-4d6b-b4fc-a841ca764541" kind="FLOW"/>
+              id="401f15ab-2b17-45ce-aaac-95074b2bcec1" name="Camber Actuator Force RH"
+              source="#86bbda22-4d71-433f-922f-f10662c2e64c" target="#1f5cb8e5-aef9-4d6b-b4fc-a841ca764541"
+              kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="4a0f6d7f-00e3-4fef-8278-3b748af2b6af" name="Port — Hydraulic Steering Supply"
               orientation="INOUT" kind="FLOW">
