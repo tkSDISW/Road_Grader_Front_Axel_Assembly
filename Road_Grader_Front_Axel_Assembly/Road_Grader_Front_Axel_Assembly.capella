@@ -62,6 +62,30 @@
           id="0d077ad8-f9a7-496a-8b10-51ca370fefde" name="System Functions">
         <ownedSystemFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
             id="733022d8-7696-4e8a-baae-9a0c46899f4e" name="Root System Function">
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="137fe6fa-0eac-45d4-804a-dfd27681c526" name="Transmit steering command to wheels"
+              description="Accept steering input signal and initiate the actuation chain to redirect wheel angles."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="764375a8-504c-4ac8-9df3-1522961d28a5" name="Actuate steering cylinder"
+              description="Convert hydraulic pressure input into linear rod displacement to drive the steering knuckle."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="d6faf5f2-f880-4052-93c9-11aaeb547497" name="Synchronize wheel steering angles"
+              description="Ensure both front wheels deflect to coordinated angles via the tie rod to maintain Ackermann geometry."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f6f7d22d-407f-41b3-87db-bb76b2a34f87" name="Limit steering travel"
+              description="Enforce maximum steering angle at each knuckle via mechanical stops to prevent over-rotation."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="5d08e9dc-f2c1-4a75-b2e0-60ab5a624e32" name="Bear vehicle structural loads"
+              description="Carry vertical and lateral loads transmitted from the vehicle frame through to the road surface."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f65c1b6c-262b-451a-8fc4-f5971528a93c" name="Maintain wheel alignment geometry"
+              description="Preserve toe, camber, and caster within defined tolerances under operational loading conditions."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="4ae37250-df55-4d3d-bdb4-fa807faab608" name="Adapt to terrain variation"
+              description="Allow knuckle articulation to accommodate uneven ground and maintain wheel contact with the road surface."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="fc084a52-becc-4a46-ade3-a0d18243e1a9" name="Provide access for maintenance"
+              description="Expose lubrication points, fasteners, and wear components to enable inspection and servicing."/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="0cec6bde-5753-4167-9d54-fe19ed20a6bd" targetElement="#6e0ab6fe-5ed3-4ef5-8c4c-5f26c24239eb"
               sourceElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"/>
