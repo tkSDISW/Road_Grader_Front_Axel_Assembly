@@ -130,7 +130,7 @@
               id="868c4f0a-73e9-4940-be7a-8aaa1f8840fa" name="Replace wear components"
               description="Remove and replace worn or damaged components such as kingpin bushings, tie rod ends, and seals."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="109eb1b3-6582-4799-81f9-cd26b8b44e8c" name="Supply Steering hydarulic pressure">
+              id="109eb1b3-6582-4799-81f9-cd26b8b44e8c" name="Supply Steering hydraulic pressure">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="6b22eb4a-1843-40f1-9841-049d166d065f" name="FOP 1"/>
           </ownedFunctions>
@@ -149,14 +149,14 @@
                 id="7d789225-65b3-4696-b0f5-19db5ea2fc40" name="FOP 2"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="0feb8051-975a-4504-b6a6-910d0c4e8ab5" name="Synchonize wheel steering angles">
+              id="0feb8051-975a-4504-b6a6-910d0c4e8ab5" name="Synchronize wheel steering angles">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="7c6df3b6-e1db-4a9d-a1a8-ddf1e256771d" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="81c3ae1c-34f7-49e8-b60a-f8dee522274d" name="FOP 3"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
-              id="bec6f50a-d142-483a-b30c-b5db112073e2" name="Limit steering travle">
+              id="bec6f50a-d142-483a-b30c-b5db112073e2" name="Limit steering travel">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="be95650d-3784-4929-a86d-b63c971c0e0e" name="FIP 1"/>
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
