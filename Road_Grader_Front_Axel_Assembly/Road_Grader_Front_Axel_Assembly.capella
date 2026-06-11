@@ -887,25 +887,52 @@
             id="f4817489-36e0-43e7-9985-fc2ba2475dd3" name="Logical System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="05d1238a-e8df-4e99-8d85-097872f9cff5" description="Directional control valve that receives the steering command and routes pressurised fluid to the appropriate cylinder port to initiate and control cylinder rod displacement."
-              name="Steering Hydraulic Valve"/>
+              name="Steering Hydraulic Valve">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="83f950d6-cbf9-49d9-b156-54dd7af102bf" targetElement="#5a3f7029-e06c-44a7-b2b5-73490df645ff"
+                sourceElement="#05d1238a-e8df-4e99-8d85-097872f9cff5"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="0a8aaf8e-fbf2-428f-870a-a517204d8eb6" targetElement="#2710f7b3-b7d2-41dd-9150-6d77e95461ff"
+                sourceElement="#05d1238a-e8df-4e99-8d85-097872f9cff5"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="3ace72c6-49e7-4fe3-8a07-6ed8b88a779c" description="Left-hand hydraulic steering cylinder. Provides primary actuation force to the left steering knuckle. One of two cylinders providing redundant steering actuation."
-              name="Steering Cylinder LH"/>
+              name="Steering Cylinder LH">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="c0c09c5b-c492-44c7-9784-764a686b6484" targetElement="#9c813c05-6cfa-4bcf-b005-27d82efdaee8"
+                sourceElement="#3ace72c6-49e7-4fe3-8a07-6ed8b88a779c"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="34b2f536-f86e-4bd4-965c-211c7c7b923e" description="Right-hand hydraulic steering cylinder. Provides actuation force to the right steering knuckle in coordination with the LH cylinder."
-              name="Steering Cylinder RH"/>
+              name="Steering Cylinder RH">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="a285ec25-bf51-4230-b473-7135803658d6" targetElement="#f292a89d-8eda-4764-b593-4aad7a7ffc4e"
+                sourceElement="#34b2f536-f86e-4bd4-965c-211c7c7b923e"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="dc2ca9c1-d0f4-466c-a0cd-403474fc5368" description="Rigid transverse linkage connecting left and right steering knuckles. Synchronizes wheel steering angles to maintain Ackermann geometry across the full steering sweep."
-              name="Tie Rod Assembly"/>
+              name="Tie Rod Assembly">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="36e58a8d-78ad-41a2-8b19-9ad0303fa9da" targetElement="#e457db22-5eef-4031-a829-45496e94e074"
+                sourceElement="#dc2ca9c1-d0f4-466c-a0cd-403474fc5368"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="0d5cd6cd-5474-4e32-9d1f-4021e2283cd6" description="Left-hand kingpin and knuckle assembly. Primary driven element that rotates about the kingpin axis to deflect the left wheel to the commanded steering angle."
-              name="Steering Knuckle LH"/>
+              name="Steering Knuckle LH">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="846e606c-e576-4df0-858e-b06d406495c1" targetElement="#a74224d3-ef49-46a2-b4c3-9b93c6e0b8f9"
+                sourceElement="#0d5cd6cd-5474-4e32-9d1f-4021e2283cd6"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="216a03d6-b3e9-46b7-917c-4bd14cb52f87" description="Right-hand kingpin and knuckle assembly. Slave element driven by the tie rod to deflect the right wheel in coordination with the left knuckle."
               name="Steering Knuckle RH"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="a618c726-33a7-41a0-a73c-62951dcfd0dd" description="Mechanical travel limiting stops integrated into the knuckle castings. Enforce maximum steering angle and absorb cylinder stall force at lock position."
-              name="Steering Stop Assembly"/>
+              name="Steering Stop Assembly">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="11b50b56-c73b-4928-a5c0-a3c76e97677c" targetElement="#e2d23c65-381a-414c-994a-41e4d71e74b8"
+                sourceElement="#a618c726-33a7-41a0-a73c-62951dcfd0dd"/>
+          </ownedLogicalComponents>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="47860e76-88f4-460e-bc57-b95026d24b96" targetElement="#44ed08e7-2517-4bdf-91d8-4a98f5426a42"
               sourceElement="#43852a38-9551-4cdb-8f89-9ffc250d3764"/>
@@ -978,9 +1005,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="10ab889a-6bf9-4a87-961c-1177d4257b04" targetElement="#9270cfbd-7c80-4f63-a8ae-c28760348951"
               sourceElement="#694175f3-9d0c-46cb-851b-f9b0ba8e0f12"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="694175f3-9d0c-46cb-851b-f9b0ba8e0f12" targetElement="#785b21ff-8853-42e5-a693-f1878cc3e640"
-              sourceElement="#76c288f1-ab25-421f-b120-29dab10a13dd"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="2eda1f81-04c8-4f5f-92d8-b749ba819ac1" name="Port — Structural Load Transfer"
               orientation="OUT" kind="FLOW">
@@ -990,6 +1014,9 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="af7ec08d-dd52-4343-9729-b1a854402c5e" targetElement="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"
+              sourceElement="#76c288f1-ab25-421f-b120-29dab10a13dd"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="694175f3-9d0c-46cb-851b-f9b0ba8e0f12" targetElement="#785b21ff-8853-42e5-a693-f1878cc3e640"
               sourceElement="#76c288f1-ab25-421f-b120-29dab10a13dd"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -1001,9 +1028,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="fb25466b-e348-4912-9cd6-956156a22af1" targetElement="#3215280c-115b-4dff-b37f-9a0fafcb58c1"
               sourceElement="#836577e9-6020-4615-adcf-27097db86a00"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="b62ab432-3ad7-456f-b671-161b36bd60a2" targetElement="#7d9532a8-f44e-41e2-bd6e-6830b6bc757a"
-              sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="100239af-656c-4d23-a98c-d11a8bcb57dc" name="Port — Hydraulic Steering Supply"
               orientation="INOUT" kind="FLOW">
@@ -1017,6 +1041,9 @@
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="48d277c5-fdec-4467-a6fa-09b15634092f" targetElement="#f3bdaf56-11c5-44b7-bb93-6010083272d2"
               sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="b62ab432-3ad7-456f-b671-161b36bd60a2" targetElement="#7d9532a8-f44e-41e2-bd6e-6830b6bc757a"
+              sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="93d69bb6-bd2d-4b61-8892-cde118c5a3df" name="Environment" description="The external physical environment in which the assembly operates. Includes terrain variation, road surface conditions, and environmental loads that the assembly must adapt to."
@@ -1024,9 +1051,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="3f81ab76-791e-4c1f-b377-20fcd25941a3" targetElement="#34f25090-fd43-4a98-b91f-4fae53a9f2c0"
               sourceElement="#c34deeea-e666-4281-91db-76391f09f8d9"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="c34deeea-e666-4281-91db-76391f09f8d9" targetElement="#ed9109af-fc31-4457-9a77-56332e7d7d2a"
-              sourceElement="#93d69bb6-bd2d-4b61-8892-cde118c5a3df"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="09425047-4111-44ef-b66f-beaaee6c4345" name="Port — Terrain Load Input"
               orientation="OUT" kind="FLOW">
@@ -1036,6 +1060,12 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="4c7a2e96-2082-4f20-b29f-67c9fa15d668" targetElement="#c3cf4d86-5263-4667-874c-962c83f0edd7"
+              sourceElement="#93d69bb6-bd2d-4b61-8892-cde118c5a3df"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c34deeea-e666-4281-91db-76391f09f8d9" targetElement="#ed9109af-fc31-4457-9a77-56332e7d7d2a"
+              sourceElement="#93d69bb6-bd2d-4b61-8892-cde118c5a3df"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="21f2deb6-be29-4e2a-b51f-3bf5b3b46f73" targetElement="#32d50c12-5fc0-41d2-a1ff-937cb2b1a4fe"
               sourceElement="#93d69bb6-bd2d-4b61-8892-cde118c5a3df"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -1050,15 +1080,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="86f21d80-e5d4-4c33-80a0-2a7a006a755c" targetElement="#b2be02a1-6dc4-400d-aa2b-e64ac22d9260"
               sourceElement="#35d64274-5570-493f-a27d-b94b6c7b3bef"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="57e5fa41-2def-4b38-8719-92e0c30a2fdb" targetElement="#e1d7720d-0342-42e8-9158-71ff4a9115f7"
-              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="1c7872ef-52e7-411d-aa8d-f3ee486a93e8" targetElement="#ddd46bc6-eabe-4488-b5ca-a6a4ee3f3713"
-              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="35d64274-5570-493f-a27d-b94b6c7b3bef" targetElement="#d2243552-8639-4d73-96b0-f643918b8791"
-              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="de69cc2c-11a9-4157-bfe6-f01d273e0f86" name="Port — Maintenance Access"
               orientation="OUT" kind="FLOW">
@@ -1068,6 +1089,18 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="e0f8da70-14d0-4022-8c76-2e634f9234a6" targetElement="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"
+              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="57e5fa41-2def-4b38-8719-92e0c30a2fdb" targetElement="#e1d7720d-0342-42e8-9158-71ff4a9115f7"
+              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="1c7872ef-52e7-411d-aa8d-f3ee486a93e8" targetElement="#ddd46bc6-eabe-4488-b5ca-a6a4ee3f3713"
+              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="35d64274-5570-493f-a27d-b94b6c7b3bef" targetElement="#d2243552-8639-4d73-96b0-f643918b8791"
+              sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0571cbc4-3e43-4813-a659-c8a493c7c67d" targetElement="#b0ab4536-00fc-4063-83e5-344d8230d204"
               sourceElement="#0876ae29-66f0-4648-b334-99b9f6b27588"/>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -1082,12 +1115,6 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="ecf75e09-8681-468a-ba15-05142c8fd259" targetElement="#40cbba77-dc64-48cd-bd5a-7b09e29de13b"
               sourceElement="#938d23fc-2bf0-41c4-bdf2-3728fd8a498d"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="700d38f0-cda7-47ac-8391-073fac8a0e14" targetElement="#a84bd787-bd75-43c4-a051-f2d7e2805b46"
-              sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="938d23fc-2bf0-41c4-bdf2-3728fd8a498d" targetElement="#b5a6833b-d3f7-404b-bb64-17edc2174030"
-              sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="b1a842fe-d765-469d-b651-8c248a35191c" name="Port — Steering Angle Output"
               orientation="IN" kind="FLOW">
@@ -1100,6 +1127,12 @@
           </ownedFeatures>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="8506a5f9-c70f-4f4b-925c-4d8d9e44c851" targetElement="#30fea4ba-8560-43df-9001-a349e66ac413"
+              sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="700d38f0-cda7-47ac-8391-073fac8a0e14" targetElement="#a84bd787-bd75-43c4-a051-f2d7e2805b46"
+              sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="938d23fc-2bf0-41c4-bdf2-3728fd8a498d" targetElement="#b5a6833b-d3f7-404b-bb64-17edc2174030"
               sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
         </ownedLogicalComponents>
       </ownedLogicalComponentPkg>
