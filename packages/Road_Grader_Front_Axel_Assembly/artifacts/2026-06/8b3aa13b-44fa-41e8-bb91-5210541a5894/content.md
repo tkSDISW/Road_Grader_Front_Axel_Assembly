@@ -127,3 +127,42 @@ Generated fabric from [SAB] Context Diagram to confirm clean model state after d
 ### Open item — manual action required
 Function allocation to actors failed — capellambse created functions as LogicalFunction type instead of SystemFunction, blocking `allocated_functions` patch (see ISSUE-008 in knowledge_partner issues log). Engineer action required: allocate the nine actor functions to their respective actors manually in Capella, then commit and push.
 
+---
+
+## 2026-06-11T13:27:01Z — milestone
+
+## Session: SA Context Diagram — Exchange and Port Naming
+
+Reviewed [SAB] Context Diagram fabric. All 17 function allocations confirmed correct. Renamed auto-generated component exchange and port names to meaningful engineering labels.
+
+### Patches applied
+
+| Commit | Change |
+|---|---|
+| 68eaa57a | Renamed component exchanges C1–C5 |
+| c457f018 | Renamed System-side ports CP1–CP5 |
+| b74a6db2 | Renamed actor-side ports CP1–CP5 |
+
+### Name changes
+
+| Old Name | New Name | Type |
+|---|---|---|
+| C 1 | Hydraulic Steering Supply | ComponentExchange |
+| C 2 | Structural Load Transfer | ComponentExchange |
+| C 3 | Terrain Load Input | ComponentExchange |
+| C 4 | Maintenance Access | ComponentExchange |
+| C 5 | Steering Angle Output | ComponentExchange |
+| CP 1 (System) | Port — Hydraulic Steering Supply | ComponentPort |
+| CP 2 (System) | Port — Structural Load Transfer | ComponentPort |
+| CP 3 (System) | Port — Terrain Load Input | ComponentPort |
+| CP 4 (System) | Port — Maintenance Access | ComponentPort |
+| CP 5 (System) | Port — Steering Angle Output | ComponentPort |
+| CP 1 (Hydraulic System) | Port — Hydraulic Steering Supply | ComponentPort |
+| CP 1 (Grader Super Structure) | Port — Structural Load Transfer | ComponentPort |
+| CP 1 (Environment) | Port — Terrain Load Input | ComponentPort |
+| CP 1 (Service Personnel) | Port — Maintenance Access | ComponentPort |
+| CP 1 (Wheels) | Port — Steering Angle Output | ComponentPort |
+
+### Remaining open item
+Function exchanges (FunctionExchange) not yet defined — needed to complete [SDFB] System Data Flow diagram.
+
