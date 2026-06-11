@@ -876,6 +876,27 @@
         </ownedComponentExchanges>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="f4817489-36e0-43e7-9985-fc2ba2475dd3" name="Logical System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="05d1238a-e8df-4e99-8d85-097872f9cff5" description="Directional control valve that receives the steering command and routes pressurised fluid to the appropriate cylinder port to initiate and control cylinder rod displacement."
+              name="Steering Hydraulic Valve"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="3ace72c6-49e7-4fe3-8a07-6ed8b88a779c" description="Left-hand hydraulic steering cylinder. Provides primary actuation force to the left steering knuckle. One of two cylinders providing redundant steering actuation."
+              name="Steering Cylinder LH"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="34b2f536-f86e-4bd4-965c-211c7c7b923e" description="Right-hand hydraulic steering cylinder. Provides actuation force to the right steering knuckle in coordination with the LH cylinder."
+              name="Steering Cylinder RH"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="dc2ca9c1-d0f4-466c-a0cd-403474fc5368" description="Rigid transverse linkage connecting left and right steering knuckles. Synchronizes wheel steering angles to maintain Ackermann geometry across the full steering sweep."
+              name="Tie Rod Assembly"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="0d5cd6cd-5474-4e32-9d1f-4021e2283cd6" description="Left-hand kingpin and knuckle assembly. Primary driven element that rotates about the kingpin axis to deflect the left wheel to the commanded steering angle."
+              name="Steering Knuckle LH"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="216a03d6-b3e9-46b7-917c-4bd14cb52f87" description="Right-hand kingpin and knuckle assembly. Slave element driven by the tie rod to deflect the right wheel in coordination with the left knuckle."
+              name="Steering Knuckle RH"/>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="a618c726-33a7-41a0-a73c-62951dcfd0dd" description="Mechanical travel limiting stops integrated into the knuckle castings. Enforce maximum steering angle and absorb cylinder stall force at lock position."
+              name="Steering Stop Assembly"/>
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="47860e76-88f4-460e-bc57-b95026d24b96" targetElement="#44ed08e7-2517-4bdf-91d8-4a98f5426a42"
               sourceElement="#43852a38-9551-4cdb-8f89-9ffc250d3764"/>
@@ -923,6 +944,20 @@
                 id="d0fcf879-50b2-4609-b89a-0c7cddb9552e" targetElement="#e23bd5b6-fc1b-42e9-bb50-9c8d281b4473"
                 sourceElement="#f207070b-2f63-4713-ba99-07b567f0e576"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e59f0f47-f484-4a04-96dd-dfcad1a3c9b7"
+              name="Steering Hydraulic Valve" abstractType="#05d1238a-e8df-4e99-8d85-097872f9cff5"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="9a044512-dde9-420a-8a03-e38e7bc6ca4a"
+              name="Steering Cylinder LH" abstractType="#3ace72c6-49e7-4fe3-8a07-6ed8b88a779c"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="15928407-92b3-44f1-b0fd-b3d5c5982cc1"
+              name="Steering Cylinder RH" abstractType="#34b2f536-f86e-4bd4-965c-211c7c7b923e"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="49f61bd8-7708-4f7e-8086-d3299669451c"
+              name="Tie Rod Assembly" abstractType="#dc2ca9c1-d0f4-466c-a0cd-403474fc5368"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="04c8461b-8228-411c-9e0b-456739d730b3"
+              name="Steering Knuckle LH" abstractType="#0d5cd6cd-5474-4e32-9d1f-4021e2283cd6"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="554eee96-0133-4ea5-81b9-0103dd203599"
+              name="Steering Knuckle RH" abstractType="#216a03d6-b3e9-46b7-917c-4bd14cb52f87"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bb4f9032-0a73-475b-804a-3304aa48c467"
+              name="Steering Stop Assembly" abstractType="#a618c726-33a7-41a0-a73c-62951dcfd0dd"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="f5ea787d-c7c6-4b4a-81ee-49fa24aa56ae" targetElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"
               sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
