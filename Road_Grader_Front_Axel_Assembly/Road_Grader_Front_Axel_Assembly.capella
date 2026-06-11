@@ -74,14 +74,12 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="5390a33c-e7e5-48ca-b1e4-22d2f6f4dd87" involved="#cca3e989-191a-4c3b-ad3f-b80356355402"
                 source="#f0f92733-70eb-461d-a227-fd3bdea192d9" target="#37a2e055-145a-40a8-97a1-47897618cfa0"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
-                id="4e240654-c6a1-43b7-b98f-594409709ac6" involved="#80b26fb6-4690-424c-b084-5bb82b640fd6"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="f3ef3f92-2011-4b5d-beb8-b66055a0e4a5" involved="#8e928f30-a203-4b35-8910-1eee0737be26"
                 source="#9ff76d8a-15b1-4400-8401-06508a50c94c" target="#f0f92733-70eb-461d-a227-fd3bdea192d9"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="c0c3da2d-210b-4efb-a4c7-5efd0928acbc" involved="#480e6640-ebb2-4a25-becc-b3673b91bf92"
-                source="#b9d72a51-9f12-4917-b051-986b434834f0" target="#4e240654-c6a1-43b7-b98f-594409709ac6"/>
+                source="#b9d72a51-9f12-4917-b051-986b434834f0" target="#4b749b77-fc0a-47c7-88f6-188d1856f03a"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="7de33981-ab68-4ddb-ac47-0ae8c4c6fe32" involved="#109eb1b3-6582-4799-81f9-cd26b8b44e8c"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
@@ -92,43 +90,9 @@
                 id="37a2e055-145a-40a8-97a1-47897618cfa0" involved="#0feb8051-975a-4504-b6a6-910d0c4e8ab5"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="b9d72a51-9f12-4917-b051-986b434834f0" involved="#bec6f50a-d142-483a-b30c-b5db112073e2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="4b749b77-fc0a-47c7-88f6-188d1856f03a" involved="#7df3856e-d158-4358-9258-9c4525003f3f"/>
           </ownedFunctionalChains>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="5d08e9dc-f2c1-4a75-b2e0-60ab5a624e32" name="Bear vehicle structural loads"
-              description="Carry vertical and lateral loads transmitted from the vehicle frame through to the road surface."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="f65c1b6c-262b-451a-8fc4-f5971528a93c" name="Maintain wheel alignment geometry"
-              description="Preserve toe, camber, and caster within defined tolerances under operational loading conditions."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="4ae37250-df55-4d3d-bdb4-fa807faab608" name="Adapt to terrain variation"
-              description="Allow knuckle articulation to accommodate uneven ground and maintain wheel contact with the road surface."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="fc084a52-becc-4a46-ade3-a0d18243e1a9" name="Provide access for maintenance"
-              description="Expose lubrication points, fasteners, and wear components to enable inspection and servicing."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="203ecdd3-977c-4dcb-ad15-5dba67013554" name="Apply structural load to axle"
-              description="Transmit vehicle weight and operational loads from the main frame into the front axle assembly."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="c7c6465d-4802-48d0-b87e-8e7009559702" name="Transmit load to road surface"
-              description="Transfer all vehicle loads from the axle assembly to the road surface via the tyre contact patch."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="80b26fb6-4690-424c-b084-5bb82b640fd6" name="Receive steering angle output"
-              description="Accept the commanded wheel deflection angle from the knuckle and present it to the road surface.">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="607b80db-0d78-4cd0-a4fa-0860e67595eb" name="FIP 1"/>
-          </ownedFunctions>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="605a6083-1a10-42a4-aedf-d6e13301d4dd" name="Apply terrain loads"
-              description="Impose ground reaction forces and uneven surface inputs on the assembly during operation."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="6f54f6d2-f974-4841-9e9f-df1e844b246c" name="Inspect assembly condition"
-              description="Examine the front axle assembly for wear, damage, and correct adjustment during scheduled maintenance."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="f7301613-fd01-4df6-b0c7-e3a22fe97020" name="Lubricate wear components"
-              description="Apply lubricant to kingpins, tie rod ends, and other wear points per the maintenance schedule."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="868c4f0a-73e9-4940-be7a-8aaa1f8840fa" name="Replace wear components"
-              description="Remove and replace worn or damaged components such as kingpin bushings, tie rod ends, and seals."/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="109eb1b3-6582-4799-81f9-cd26b8b44e8c" name="Supply Steering hydraulic pressure">
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -162,6 +126,31 @@
             <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                 id="f9952dad-e9ab-41cd-b5e8-4e2959cb550d" name="FOP 1"/>
           </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="82a758c3-aac5-4e89-a134-1f41fc9f4bb3" name="Apply structural load to axle"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="c1f4e84a-8100-46ad-9159-e43cfa876969" name="Apply terrain loads"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="7df3856e-d158-4358-9258-9c4525003f3f" name="Receive steering angle output">
+            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                id="607b80db-0d78-4cd0-a4fa-0860e67595eb" name="FIP 1"/>
+          </ownedFunctions>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="2ba03194-0abf-4324-ad3c-3ba307aa4bcc" name="Transmit load to road surface"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="08c45afe-4eab-48ad-ad35-bfcf2fd6a080" name="Inspect assembly condition"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="4cb5c2be-0580-4e64-9c33-c2ae604ca871" name="Lubricate wear components"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="6815d3dd-4d54-4c47-a7fa-d86adcb8c6dd" name="Replace wear components"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="49621f93-2106-4f3b-8a06-c402b45c9727" name="Bear vehicle structural loads"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="56e30f2b-f618-434a-896d-168be771b882" name="Provide access for maintenance"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="0ca00fc5-3591-4dd9-85d1-ff09159e5e93" name="Adapt to terrain variation"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="716b9407-99e5-432d-8f11-2bfaf05cb7a6" name="Maintain wheel alignment geometry"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="0cec6bde-5753-4167-9d54-fe19ed20a6bd" targetElement="#6e0ab6fe-5ed3-4ef5-8c4c-5f26c24239eb"
               sourceElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"/>
@@ -381,23 +370,11 @@
             source="#096b0a17-98bb-4f15-938e-ce4b4da05244" target="#1d3bb17f-e684-412d-906c-9e6a179a5282"
             kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
-              id="3e8bebb3-050e-4248-9042-d592aff62c9e" targetElement="#480e6640-ebb2-4a25-becc-b3673b91bf92"
+              id="28560c91-5a97-4c45-8b8e-8a75e3fb1246" targetElement="#480e6640-ebb2-4a25-becc-b3673b91bf92"
               sourceElement="#308e1c11-b600-4b84-88d8-9ca207eeab65"/>
         </ownedComponentExchanges>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="2c51ad46-8784-45cb-b2d5-9ccb97785dc5" name="System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="97b13ae8-0068-4b33-950a-378d3359740c" targetElement="#5d08e9dc-f2c1-4a75-b2e0-60ab5a624e32"
-              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="9865c9d5-88ca-4495-86e2-25fa2d82b1af" targetElement="#f65c1b6c-262b-451a-8fc4-f5971528a93c"
-              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="76319bc2-90e0-4303-97f5-9effeaff1d46" targetElement="#4ae37250-df55-4d3d-bdb4-fa807faab608"
-              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="0f2d0c05-c0ce-4f8b-b47a-d049090ed9d4" targetElement="#fc084a52-becc-4a46-ade3-a0d18243e1a9"
-              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="9436f453-f665-480d-8494-2d92e3aeb101" targetElement="#e471568a-71df-4bbe-a25c-ae8292bd2990"
               sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
@@ -409,6 +386,18 @@
               sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="bd196bfc-fbaf-42a5-80ac-eaca3f230cf0" targetElement="#bec6f50a-d142-483a-b30c-b5db112073e2"
+              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="b8fe42f2-4ddd-43c8-9deb-7a37263816c9" targetElement="#49621f93-2106-4f3b-8a06-c402b45c9727"
+              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="3b94076f-8e28-418c-9dcf-d592c18ab093" targetElement="#56e30f2b-f618-434a-896d-168be771b882"
+              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="80fe9a98-76e7-499c-b6b5-de573b503bd5" targetElement="#0ca00fc5-3591-4dd9-85d1-ff09159e5e93"
+              sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="7c2ebeac-ff5b-4cc5-9c5f-b2d33aaaf407" targetElement="#716b9407-99e5-432d-8f11-2bfaf05cb7a6"
               sourceElement="#2c51ad46-8784-45cb-b2d5-9ccb97785dc5"/>
           <ownedStateMachines xsi:type="org.polarsys.capella.core.data.capellacommon:StateMachine"
               id="a7320d3c-b1d3-46b3-b098-5560f3fb5d52" name="System State Machine">
@@ -435,7 +424,7 @@
               id="096b0a17-98bb-4f15-938e-ce4b4da05244" name="Port — Steering Angle Output"
               orientation="OUT" kind="FLOW">
             <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                id="943c9fc1-16f5-4e94-8550-fa7868861933" targetElement="#f9952dad-e9ab-41cd-b5e8-4e2959cb550d"
+                id="0738c1bb-e587-4062-8a03-4f75e57a6379" targetElement="#f9952dad-e9ab-41cd-b5e8-4e2959cb550d"
                 sourceElement="#096b0a17-98bb-4f15-938e-ce4b4da05244"/>
           </ownedFeatures>
         </ownedSystemComponents>
@@ -444,7 +433,7 @@
             description="The road grader main frame and body structure. Transmits vehicle weight and operational loads down through the front axle assembly to the road surface."
             actor="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="20ff22ad-7825-46d9-8c2c-cb0b3938fe37" targetElement="#203ecdd3-977c-4dcb-ad15-5dba67013554"
+              id="9270cfbd-7c80-4f63-a8ae-c28760348951" targetElement="#82a758c3-aac5-4e89-a134-1f41fc9f4bb3"
               sourceElement="#3c6748dd-6712-4f95-a7e7-3f365f4a96d0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="23e60186-144c-434c-9020-8ff043481d5f" name="Port — Structural Load Transfer"
@@ -468,7 +457,7 @@
             id="c3cf4d86-5263-4667-874c-962c83f0edd7" name="Environment" description="The external physical environment in which the assembly operates. Includes terrain variation, road surface conditions, and environmental loads that the assembly must adapt to."
             actor="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="07c448f4-3fb8-4391-9f9f-151e017a6804" targetElement="#605a6083-1a10-42a4-aedf-d6e13301d4dd"
+              id="34f25090-fd43-4a98-b91f-4fae53a9f2c0" targetElement="#c1f4e84a-8100-46ad-9159-e43cfa876969"
               sourceElement="#c3cf4d86-5263-4667-874c-962c83f0edd7"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="e820325d-affe-4ac7-893a-adb9ecda1e45" name="Port — Terrain Load Input"
@@ -478,13 +467,13 @@
             id="0387e20a-5da2-4098-b0c2-92ba05e3d4c0" name="Service Personnel" description="Maintenance and service technicians responsible for inspection, lubrication, adjustment, and replacement of wear components on the front axle assembly."
             actor="true" human="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="29eb9b32-8752-4680-af63-aae94144c339" targetElement="#6f54f6d2-f974-4841-9e9f-df1e844b246c"
+              id="057f4e60-beb1-4eec-9f9f-00cfb37aaa0a" targetElement="#08c45afe-4eab-48ad-ad35-bfcf2fd6a080"
               sourceElement="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="40bd26df-2748-4153-83fb-15889acf8b08" targetElement="#f7301613-fd01-4df6-b0c7-e3a22fe97020"
+              id="fdd12a2a-e2e1-455a-97dc-6600a48bbb8e" targetElement="#4cb5c2be-0580-4e64-9c33-c2ae604ca871"
               sourceElement="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="5b707da3-5c78-472f-9db1-20f08ef51b5b" targetElement="#868c4f0a-73e9-4940-be7a-8aaa1f8840fa"
+              id="b2be02a1-6dc4-400d-aa2b-e64ac22d9260" targetElement="#6815d3dd-4d54-4c47-a7fa-d86adcb8c6dd"
               sourceElement="#0387e20a-5da2-4098-b0c2-92ba05e3d4c0"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="67dd63ce-3ba4-4ff2-88c7-41444188834a" name="Port — Maintenance Access"
@@ -494,16 +483,16 @@
             id="30fea4ba-8560-43df-9001-a349e66ac413" name="Wheels" description="The front wheels and tyres mounted to the axle assembly. Receive steering angle output from the knuckles and transmit all vehicle loads to the road surface."
             actor="true">
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="d61b3b83-2fca-41b3-81d0-5f3eed8a246a" targetElement="#c7c6465d-4802-48d0-b87e-8e7009559702"
+              id="3e731f27-0b81-4aa6-8b74-d9fb01056a31" targetElement="#7df3856e-d158-4358-9258-9c4525003f3f"
               sourceElement="#30fea4ba-8560-43df-9001-a349e66ac413"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="5420cd33-daf3-45af-94cb-1d0f3a4fc2e0" targetElement="#80b26fb6-4690-424c-b084-5bb82b640fd6"
+              id="40cbba77-dc64-48cd-bd5a-7b09e29de13b" targetElement="#2ba03194-0abf-4324-ad3c-3ba307aa4bcc"
               sourceElement="#30fea4ba-8560-43df-9001-a349e66ac413"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="1d3bb17f-e684-412d-906c-9e6a179a5282" name="Port — Steering Angle Output"
               orientation="IN" kind="FLOW">
             <ownedPortAllocations xsi:type="org.polarsys.capella.core.data.information:PortAllocation"
-                id="fac52062-dab8-4c7d-ab14-266b7369e826" targetElement="#607b80db-0d78-4cd0-a4fa-0860e67595eb"
+                id="427e02ce-5a14-4212-9b5a-137000566ff3" targetElement="#607b80db-0d78-4cd0-a4fa-0860e67595eb"
                 sourceElement="#1d3bb17f-e684-412d-906c-9e6a179a5282"/>
           </ownedFeatures>
         </ownedSystemComponents>
