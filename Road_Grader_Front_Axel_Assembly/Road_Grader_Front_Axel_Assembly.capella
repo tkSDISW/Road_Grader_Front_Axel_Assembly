@@ -171,19 +171,19 @@
               id="0cec6bde-5753-4167-9d54-fe19ed20a6bd" targetElement="#6e0ab6fe-5ed3-4ef5-8c4c-5f26c24239eb"
               sourceElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e1b14dfc-1339-4a56-861c-a2eda0002646" name="FunctionalExchange 1"
+              id="e1b14dfc-1339-4a56-861c-a2eda0002646" name="Hydraulic Pressure Supply"
               target="#d57fc45d-992e-495a-b4ca-861ff29cf275" source="#6b22eb4a-1843-40f1-9841-049d166d065f"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="cca3e989-191a-4c3b-ad3f-b80356355402" name="FunctionalExchange 3"
+              id="cca3e989-191a-4c3b-ad3f-b80356355402" name="Cylinder Displacement"
               target="#7c6df3b6-e1db-4a9d-a1a8-ddf1e256771d" source="#7d789225-65b3-4696-b0f5-19db5ea2fc40"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="b1857023-522a-495c-aa05-3bba1e4e5b0e" name="FunctionalExchange 4"
+              id="b1857023-522a-495c-aa05-3bba1e4e5b0e" name="Synchronized Wheel Angle"
               target="#be95650d-3784-4929-a86d-b63c971c0e0e" source="#81c3ae1c-34f7-49e8-b60a-f8dee522274d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="8e928f30-a203-4b35-8910-1eee0737be26" name="FunctionalExchange 5"
+              id="8e928f30-a203-4b35-8910-1eee0737be26" name="Steering Command Signal"
               target="#3a6f675f-e835-49d1-be8d-7b93f60efa9c" source="#7625bc7e-1f29-409f-9050-21bce47e6db7"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="480e6640-ebb2-4a25-becc-b3673b91bf92" name="FunctionalExchange 6"
+              id="480e6640-ebb2-4a25-becc-b3673b91bf92" name="Constrained Steering Angle"
               target="#607b80db-0d78-4cd0-a4fa-0860e67595eb" source="#f9952dad-e9ab-41cd-b5e8-4e2959cb550d"/>
         </ownedSystemFunctions>
       </ownedFunctionPkg>
@@ -364,8 +364,9 @@
         <ownedParts xsi:type="org.polarsys.capella.core.data.cs:Part" id="567e6a4f-37e9-430b-8640-812347a415fd"
             name="Wheels" abstractType="#30fea4ba-8560-43df-9001-a349e66ac413"/>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="7b249093-12ae-4a34-8c4f-1a3473488b1b" name="Steering Hydau" source="#664c9c62-b7a7-47c7-9147-66ab360da994"
-            target="#266fb85e-653f-4240-9bd4-3113877f0491" kind="FLOW">
+            id="7b249093-12ae-4a34-8c4f-1a3473488b1b" name="Hydraulic Steering Supply"
+            source="#664c9c62-b7a7-47c7-9147-66ab360da994" target="#266fb85e-653f-4240-9bd4-3113877f0491"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="9d53621c-665e-4a2c-a5f0-a03e52ca61e6" targetElement="#e1b14dfc-1339-4a56-861c-a2eda0002646"
               sourceElement="#7b249093-12ae-4a34-8c4f-1a3473488b1b"/>
