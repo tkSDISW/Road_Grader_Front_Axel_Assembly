@@ -86,6 +86,33 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="fc084a52-becc-4a46-ade3-a0d18243e1a9" name="Provide access for maintenance"
               description="Expose lubrication points, fasteners, and wear components to enable inspection and servicing."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c5a16d27-3df5-4974-8cc7-93d061970594" name="Supply hydraulic pressure"
+              description="Provide pressurised hydraulic fluid to the steering cylinder at the required flow rate and pressure."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="27fbfc7b-d42d-4d0c-8a80-053eea20f4c1" name="Return hydraulic fluid"
+              description="Accept return fluid from the steering cylinder to complete the hydraulic steering circuit."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="203ecdd3-977c-4dcb-ad15-5dba67013554" name="Apply structural load to axle"
+              description="Transmit vehicle weight and operational loads from the main frame into the front axle assembly."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c7c6465d-4802-48d0-b87e-8e7009559702" name="Transmit load to road surface"
+              description="Transfer all vehicle loads from the axle assembly to the road surface via the tyre contact patch."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="80b26fb6-4690-424c-b084-5bb82b640fd6" name="Receive steering angle output"
+              description="Accept the commanded wheel deflection angle from the knuckle and present it to the road surface."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="605a6083-1a10-42a4-aedf-d6e13301d4dd" name="Apply terrain loads"
+              description="Impose ground reaction forces and uneven surface inputs on the assembly during operation."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="6f54f6d2-f974-4841-9e9f-df1e844b246c" name="Inspect assembly condition"
+              description="Examine the front axle assembly for wear, damage, and correct adjustment during scheduled maintenance."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="f7301613-fd01-4df6-b0c7-e3a22fe97020" name="Lubricate wear components"
+              description="Apply lubricant to kingpins, tie rod ends, and other wear points per the maintenance schedule."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="868c4f0a-73e9-4940-be7a-8aaa1f8840fa" name="Replace wear components"
+              description="Remove and replace worn or damaged components such as kingpin bushings, tie rod ends, and seals."/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="0cec6bde-5753-4167-9d54-fe19ed20a6bd" targetElement="#6e0ab6fe-5ed3-4ef5-8c4c-5f26c24239eb"
               sourceElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"/>
