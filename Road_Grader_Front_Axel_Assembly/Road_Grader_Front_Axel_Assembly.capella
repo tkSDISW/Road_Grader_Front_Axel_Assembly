@@ -1125,7 +1125,7 @@
                 kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="d308fd4f-63a9-4d88-a831-514bb9babd49" name="Camber Assembly">
+              id="d308fd4f-63a9-4d88-a831-514bb9babd49" name="Camber Assembly" description="Mechanical linkage assembly that transfers camber adjustment force from the Camber Actuator at the right knuckle across to the left knuckle. Acts as the symmetric force distribution mechanism for the active camber sub-system.">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="051a9553-14fa-4dbf-8f90-03938867d1a0" name="CP 1" orientation="INOUT"
                 kind="FLOW"/>
@@ -1134,7 +1134,7 @@
                 kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="ee8b572a-039a-4b62-90dc-c793af0cb914" name="Camber Actuator">
+              id="ee8b572a-039a-4b62-90dc-c793af0cb914" name="Camber Actuator" description="Hydraulic actuator that applies camber adjustment force directly to the right steering knuckle. The Camber Assembly transfers the resulting geometric change symmetrically to the left knuckle.">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="b9a59338-25c7-40eb-a053-287cdf21d482" name="CP 1" orientation="IN"
                 kind="FLOW"/>
@@ -1208,7 +1208,7 @@
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="ff536248-b195-4c05-be6c-b12a3a5d3f6b" name="Camber Valve Assembly"
-              actor="true">
+              actor="true" description="Two-way hydraulic valve within the Hydraulic System that controls pressurised fluid supply and return to the Camber Actuator, enabling active camber angle adjustment in both directions.">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="cccb3090-cf84-4288-be99-35202fe401b6" name="CP 1" orientation="OUT"
                 kind="FLOW"/>
