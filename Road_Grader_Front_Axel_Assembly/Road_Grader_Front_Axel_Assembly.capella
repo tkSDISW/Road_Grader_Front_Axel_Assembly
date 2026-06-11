@@ -758,6 +758,9 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="5a3f7029-e06c-44a7-b2b5-73490df645ff" name="Route hydraulic pressure to cylinder"
               description="Open the directional control valve and route pressurised fluid to the appropriate cylinder port in response to the steering command signal."/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+              id="c24b4e23-2022-4609-a27e-d164f0a8819c" description="Rotate about the kingpin axis under cylinder and tie rod input forces to deflect the right wheel hub to the commanded steering angle."
+              name="Deflect right wheel to steering angle"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="82cb6697-0ee6-4211-ad3b-6e7381c3a14d" targetElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"
               sourceElement="#4a5581c2-2cc8-4819-9b42-c8c260343a47"/>
