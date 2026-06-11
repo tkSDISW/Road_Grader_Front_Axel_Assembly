@@ -906,6 +906,12 @@
             id="e32f460f-733a-4003-ac16-fbc899805c7d" name="Camber Hydraulic Return"
             source="#5c0dc2c7-e1b5-4d0c-8d03-106daad136e9" target="#31596d7d-bc73-4f4e-9cd1-68d3e29185cc"
             kind="FLOW"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+            id="9a37a68b-fd1a-4ee3-9660-7caee79c4708" name="C 9" source="#52def18c-015d-49c0-b30b-5db17caf4565"
+            target="#1971c9ce-3539-4a91-9cb9-355684edfb3f" kind="FLOW"/>
+        <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
+            id="a60285ee-59a2-4185-993a-a47b5e18d013" name="C 10" source="#e79b9f98-5594-4ccb-9575-14701cdb23e8"
+            target="#dadd5fe8-6536-4590-a287-43681370193c" kind="FLOW"/>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
             id="f4817489-36e0-43e7-9985-fc2ba2475dd3" name="Logical System" description="The front axle assembly system — the primary subject of this model. Provides steering, load bearing, and wheel guidance functions for the road grader.">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
@@ -986,11 +992,11 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="554eee96-0133-4ea5-81b9-0103dd203599"
               name="Steering Knuckle RH" abstractType="#216a03d6-b3e9-46b7-917c-4bd14cb52f87"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bca99d0d-15bc-4684-9615-e2e6ab05072c"
-              name="Right Wheel HUb" abstractType="#a8c693fc-7dbc-4ca0-aa7f-329e4fb9f2ed"/>
+              name="Right Wheel Hub" abstractType="#a8c693fc-7dbc-4ca0-aa7f-329e4fb9f2ed"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bce18b23-dbbd-4ea8-9059-9fb30a0796c2"
               name="Left Wheel Hub" abstractType="#3dcaaf40-bc9e-44fd-8e0d-880485cca86d"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e804064b-8287-4916-b210-3bfe8d0ff3bd"
-              name="Kingpin Axel Assembly" abstractType="#1059b68a-a891-455a-a9f3-46c07d33b95e"/>
+              name="Kingpin Axle Assembly" abstractType="#1059b68a-a891-455a-a9f3-46c07d33b95e"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="61101221-af20-4189-b374-ce8bf9b33ab7"
               name="Camber Assembly" abstractType="#d308fd4f-63a9-4d88-a831-514bb9babd49"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="bd7e3ef5-6363-4605-89a2-bd9772c9fd20"
@@ -1007,6 +1013,9 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="f36bca91-2036-4a4a-aa77-9ebdd4a4d961" name="CP 1" orientation="OUT"
                 kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="1971c9ce-3539-4a91-9cb9-355684edfb3f" name="CP 2" orientation="IN"
+                kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="34b2f536-f86e-4bd4-965c-211c7c7b923e" name="Steering Cylinder RH"
@@ -1016,6 +1025,9 @@
                 sourceElement="#34b2f536-f86e-4bd4-965c-211c7c7b923e"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="e3aeb4f1-bf7b-4517-b7d6-99326d714e74" name="CP 1" orientation="OUT"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="dadd5fe8-6536-4590-a287-43681370193c" name="CP 2" orientation="IN"
                 kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
@@ -1178,7 +1190,7 @@
                 sourceElement="#100239af-656c-4d23-a98c-d11a8bcb57dc"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="32fed36a-4eec-40b2-ab84-5dcf7518acb7"
-              name="Steering Hydralic Valve" abstractType="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
+              name="Steering Hydraulic Valve" abstractType="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e081a402-388b-40b5-8319-45862cd888fe"
               name="Camber Valve Assembly" abstractType="#ff536248-b195-4c05-be6c-b12a3a5d3f6b"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
@@ -1186,7 +1198,14 @@
               sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="3ec62f6d-0f5a-44a0-a58c-51bbef440469" name="Steering Hydraulic Valve"
-              actor="true"/>
+              actor="true">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="52def18c-015d-49c0-b30b-5db17caf4565" name="CP 1" orientation="OUT"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="e79b9f98-5594-4ccb-9575-14701cdb23e8" name="CP 2" orientation="OUT"
+                kind="FLOW"/>
+          </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="ff536248-b195-4c05-be6c-b12a3a5d3f6b" name="Camber Valve Assembly"
               actor="true">
@@ -1274,7 +1293,7 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fbb8a9f1-2911-41be-a852-d464c2a3fe09"
               name="Left Wheel" abstractType="#72feab6d-c76d-4611-9ebe-5a2dd7deb841"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3d5c7b2d-0ff6-4fb8-80a2-875604af2510"
-              name="Reigh WHeel " abstractType="#9c2fcbac-1aa8-4778-b5d2-30579afb32f3"/>
+              name="Right Wheel" abstractType="#9c2fcbac-1aa8-4778-b5d2-30579afb32f3"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="8506a5f9-c70f-4f4b-925c-4d8d9e44c851" targetElement="#30fea4ba-8560-43df-9001-a349e66ac413"
               sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
