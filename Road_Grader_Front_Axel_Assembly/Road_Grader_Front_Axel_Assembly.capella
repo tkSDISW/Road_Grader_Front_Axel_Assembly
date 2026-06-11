@@ -341,20 +341,20 @@
                 id="63803bc5-dc4b-4f85-8867-15fdbccccf0a" name="Default Region"/>
           </ownedStateMachines>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="266fb85e-653f-4240-9bd4-3113877f0491" name="CP 1" orientation="INOUT"
-              kind="FLOW"/>
+              id="266fb85e-653f-4240-9bd4-3113877f0491" name="Port — Hydraulic Steering Supply"
+              orientation="INOUT" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="afeec33f-7277-4e18-b487-34ffa07d6903" name="CP 2" orientation="IN"
-              kind="FLOW"/>
+              id="afeec33f-7277-4e18-b487-34ffa07d6903" name="Port — Structural Load Transfer"
+              orientation="IN" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="91ba52a1-3df4-4c0b-aee6-0cf900ddbb31" name="CP 3" orientation="IN"
-              kind="FLOW"/>
+              id="91ba52a1-3df4-4c0b-aee6-0cf900ddbb31" name="Port — Terrain Load Input"
+              orientation="IN" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="f1dc0c44-4879-4aec-adae-55ba40640942" name="CP 4" orientation="IN"
-              kind="FLOW"/>
+              id="f1dc0c44-4879-4aec-adae-55ba40640942" name="Port — Maintenance Access"
+              orientation="IN" kind="FLOW"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-              id="096b0a17-98bb-4f15-938e-ce4b4da05244" name="CP 5" orientation="OUT"
-              kind="FLOW"/>
+              id="096b0a17-98bb-4f15-938e-ce4b4da05244" name="Port — Steering Angle Output"
+              orientation="OUT" kind="FLOW"/>
         </ownedSystemComponents>
         <ownedSystemComponents xsi:type="org.polarsys.capella.core.data.ctx:SystemComponent"
             id="3c6748dd-6712-4f95-a7e7-3f365f4a96d0" name="Grader Super Structure"
