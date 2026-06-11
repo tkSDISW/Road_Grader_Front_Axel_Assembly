@@ -80,3 +80,50 @@ Resolved all four open issues identified during the [MCB] Capabilities fabric re
 - Issue C: Steering force transmission actor involvement — resolved this session (db536138)
 - Issue D: Actor name typos — resolved this session (750dce35)
 
+---
+
+## 2026-06-11T13:15:23Z — milestone
+
+## Session: SA Functions — Initial Definition
+
+### Work completed
+
+Generated fabric from [SAB] Context Diagram to confirm clean model state after duplicate UUID fix. All six actors present with correct descriptions. No functions existed prior to this session.
+
+### Patches applied
+
+| Commit | Change |
+|---|---|
+| 6fadee63 | Added 8 system functions under Root System Function |
+| 5cc21d0c | Added 9 actor functions under Root System Function |
+
+### System functions created (allocated to System)
+
+| Function | UUID |
+|---|---|
+| Transmit steering command to wheels | 137fe6fa |
+| Actuate steering cylinder | 764375a8 |
+| Synchronize wheel steering angles | d6faf5f2 |
+| Limit steering travel | f6f7d22d |
+| Bear vehicle structural loads | 5d08e9dc |
+| Maintain wheel alignment geometry | f65c1b6c |
+| Adapt to terrain variation | 4ae37250 |
+| Provide access for maintenance | fc084a52 |
+
+### Actor functions created (pending allocation)
+
+| Function | UUID | Actor |
+|---|---|---|
+| Supply hydraulic pressure | c5a16d27 | Hydraulic System |
+| Return hydraulic fluid | 27fbfc7b | Hydraulic System |
+| Apply structural load to axle | 203ecdd3 | Grader Super Structure |
+| Transmit load to road surface | c7c6465d | Wheels |
+| Receive steering angle output | 80b26fb6 | Wheels |
+| Apply terrain loads | 605a6083 | Environment |
+| Inspect assembly condition | 6f54f6d2 | Service Personnel |
+| Lubricate wear components | f7301613 | Service Personnel |
+| Replace wear components | 868c4f0a | Service Personnel |
+
+### Open item — manual action required
+Function allocation to actors failed — capellambse created functions as LogicalFunction type instead of SystemFunction, blocking `allocated_functions` patch (see ISSUE-008 in knowledge_partner issues log). Engineer action required: allocate the nine actor functions to their respective actors manually in Capella, then commit and push.
+
