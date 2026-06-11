@@ -583,6 +583,16 @@
                   id="a6b5037f-bec4-4920-8bc9-ccf74284bd34" targetElement="#6b22eb4a-1843-40f1-9841-049d166d065f"
                   sourceElement="#42dab1ca-4e7c-423d-bdd6-c02c0558cbac"/>
             </outputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="d2cf9758-347a-4972-a14c-498546fa6342" name="Supply Pressure to RH Cyl">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="45a09153-3155-4f51-9e09-0e58bebe2c4f" name="FOP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="859946fa-3116-4769-ab7c-226f276e1437" name="Supply Pressure to LH Cyl">
+              <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                  id="79549dc5-e270-461a-b049-b8c768fc9b32" name="FOP 1"/>
+            </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="3b65a34f-84aa-4a90-9735-fcba933672b5" targetElement="#109eb1b3-6582-4799-81f9-cd26b8b44e8c"
                 sourceElement="#7d9532a8-f44e-41e2-bd6e-6830b6bc757a"/>
@@ -601,6 +611,18 @@
                   id="4e431868-e3a0-4dbf-adf8-34e55abf3c4e" targetElement="#7625bc7e-1f29-409f-9050-21bce47e6db7"
                   sourceElement="#54c939f1-9c2d-4b3d-9698-e748837b1e54"/>
             </outputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="f292a89d-8eda-4764-b593-4aad7a7ffc4e" name="Actuate steering cylinder RH"
+                description="Convert hydraulic pressure into linear rod displacement in the right-hand steering cylinder to provide redundant and symmetric steering actuation force.">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="e0af76cb-cff8-4bc8-bc20-2d17ca5162e9" name="FIP 1"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="9c813c05-6cfa-4bcf-b005-27d82efdaee8" name="Actuate steering cylinder LH"
+                description="Convert hydraulic pressure into linear rod displacement in the left-hand steering cylinder to drive the left knuckle to the commanded angle.">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="0e09f192-557a-4f0a-b1e3-70884c01e0d2" name="FIP 1"/>
+            </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="43cb1043-3bb4-45e9-97e9-51b2f326c37a" targetElement="#e471568a-71df-4bbe-a25c-ae8292bd2990"
                 sourceElement="#2710f7b3-b7d2-41dd-9150-6d77e95461ff"/>
@@ -619,6 +641,8 @@
                   id="69c4bc7e-cb11-4d9a-8fe4-5fb2aa031b23" targetElement="#7d789225-65b3-4696-b0f5-19db5ea2fc40"
                   sourceElement="#9ff2684b-b9c2-4db4-96a5-93907616bf65"/>
             </outputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="5735f2db-9d87-4edb-ab7a-0d5e456579a1" name="Rotate  LH Knuckle"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="0bc37c81-23e6-44de-af3c-f8fb2c158992" targetElement="#0aff62d8-f452-469e-9ac9-07b149baa170"
                 sourceElement="#a74224d3-ef49-46a2-b4c3-9b93c6e0b8f9"/>
@@ -732,12 +756,6 @@
                 sourceElement="#25c15598-3fd3-414e-9b1a-7131863cec17"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="9c813c05-6cfa-4bcf-b005-27d82efdaee8" name="Actuate steering cylinder LH"
-              description="Convert hydraulic pressure into linear rod displacement in the left-hand steering cylinder to drive the left knuckle to the commanded angle."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="f292a89d-8eda-4764-b593-4aad7a7ffc4e" name="Actuate steering cylinder RH"
-              description="Convert hydraulic pressure into linear rod displacement in the right-hand steering cylinder to provide redundant and symmetric steering actuation force."/>
-          <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="5a3f7029-e06c-44a7-b2b5-73490df645ff" name="Route hydraulic pressure to cylinder"
               description="Open the directional control valve and route pressurised fluid to the appropriate cylinder port in response to the steering command signal."/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -780,16 +798,22 @@
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="add0b821-3dbe-4a68-9563-9ee0a793eee1" name="Hydraulic to Cylinder LH"
-              source="#5a3f7029-e06c-44a7-b2b5-73490df645ff" target="#9c813c05-6cfa-4bcf-b005-27d82efdaee8"/>
+              target="#9c813c05-6cfa-4bcf-b005-27d82efdaee8" source="#5a3f7029-e06c-44a7-b2b5-73490df645ff"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="83b0d22b-1ae5-4121-bcca-068bb1dc5c6f" name="Hydraulic to Cylinder RH"
-              source="#5a3f7029-e06c-44a7-b2b5-73490df645ff" target="#f292a89d-8eda-4764-b593-4aad7a7ffc4e"/>
+              target="#f292a89d-8eda-4764-b593-4aad7a7ffc4e" source="#5a3f7029-e06c-44a7-b2b5-73490df645ff"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="97d3d945-6b94-4f01-bd64-9a79db68673f" name="Cylinder Displacement LH"
-              source="#9c813c05-6cfa-4bcf-b005-27d82efdaee8" target="#e457db22-5eef-4031-a829-45496e94e074"/>
+              target="#e457db22-5eef-4031-a829-45496e94e074" source="#9c813c05-6cfa-4bcf-b005-27d82efdaee8"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="bb217cfc-a513-4bcb-a3a3-04b70ef3e03c" name="Cylinder Displacement RH"
-              source="#f292a89d-8eda-4764-b593-4aad7a7ffc4e" target="#e457db22-5eef-4031-a829-45496e94e074"/>
+              target="#e457db22-5eef-4031-a829-45496e94e074" source="#f292a89d-8eda-4764-b593-4aad7a7ffc4e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="5c486bbd-3275-420b-afc0-a91747d7329e" name="FunctionalExchange 10"
+              target="#0e09f192-557a-4f0a-b1e3-70884c01e0d2" source="#45a09153-3155-4f51-9e09-0e58bebe2c4f"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="29a24d86-c6cd-4d80-917f-ca26e4e87c3a" name="FunctionalExchange 11"
+              target="#e0af76cb-cff8-4bc8-bc20-2d17ca5162e9" source="#79549dc5-e270-461a-b049-b8c768fc9b32"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -929,6 +953,21 @@
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="47860e76-88f4-460e-bc57-b95026d24b96" targetElement="#44ed08e7-2517-4bdf-91d8-4a98f5426a42"
               sourceElement="#43852a38-9551-4cdb-8f89-9ffc250d3764"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="8ba9f3bd-c9bf-44d1-b809-82d387b2ec70" targetElement="#2710f7b3-b7d2-41dd-9150-6d77e95461ff"
+              sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="0f54235a-9af2-4d5a-ae2f-43cac56ec67c" targetElement="#e2d23c65-381a-414c-994a-41e4d71e74b8"
+              sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="c56ed992-31e0-416c-ac02-c82e27c70106" targetElement="#e9012eb6-0a84-49d7-8b1c-785a535a14e9"
+              sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="6b7992ef-fcfb-4046-84fe-20cec88330ce" targetElement="#25c15598-3fd3-414e-9b1a-7131863cec17"
+              sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
+          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+              id="2c841bab-cd82-4927-9338-0df0e96ee95b" targetElement="#5a3f7029-e06c-44a7-b2b5-73490df645ff"
+              sourceElement="#f4817489-36e0-43e7-9985-fc2ba2475dd3"/>
           <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
               id="996b929e-fb85-43dd-93cf-fe43f0ddc338" name="Cylinder Force RH" source="#e3aeb4f1-bf7b-4517-b7d6-99326d714e74"
               target="#0de5a7b8-bbb1-429d-9e67-6307002b501c" kind="FLOW"/>
@@ -1183,14 +1222,8 @@
             id="2ce26a27-5448-41e4-a4a6-cf22755d91a2" name="Hydraulic System" description="The vehicle hydraulic circuit that supplies pressurised fluid to the steering cylinder. Acts as the energy source for all active steering functions."
             actor="true">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="4ae1a663-5c0e-4247-82c4-9a3efe060642" targetElement="#7c69c573-1633-42c7-ac49-69bf3ff59764"
-              sourceElement="#b62ab432-3ad7-456f-b671-161b36bd60a2"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="fb25466b-e348-4912-9cd6-956156a22af1" targetElement="#3215280c-115b-4dff-b37f-9a0fafcb58c1"
               sourceElement="#836577e9-6020-4615-adcf-27097db86a00"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="b62ab432-3ad7-456f-b671-161b36bd60a2" targetElement="#7d9532a8-f44e-41e2-bd6e-6830b6bc757a"
-              sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
               id="100239af-656c-4d23-a98c-d11a8bcb57dc" name="Port — Hydraulic Steering Supply"
               orientation="INOUT" kind="FLOW">
@@ -1201,31 +1234,38 @@
                 id="836577e9-6020-4615-adcf-27097db86a00" targetElement="#42dab1ca-4e7c-423d-bdd6-c02c0558cbac"
                 sourceElement="#100239af-656c-4d23-a98c-d11a8bcb57dc"/>
           </ownedFeatures>
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="32fed36a-4eec-40b2-ab84-5dcf7518acb7"
-              name="Steering Hydraulic Valve" abstractType="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="e081a402-388b-40b5-8319-45862cd888fe"
               name="Camber Valve Assembly" abstractType="#ff536248-b195-4c05-be6c-b12a3a5d3f6b"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="32fed36a-4eec-40b2-ab84-5dcf7518acb7"
+              name="Steering Hydraulic Valve" abstractType="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
           <ownedComponentRealizations xsi:type="org.polarsys.capella.core.data.cs:ComponentRealization"
               id="48d277c5-fdec-4467-a6fa-09b15634092f" targetElement="#f3bdaf56-11c5-44b7-bb93-6010083272d2"
               sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="3ec62f6d-0f5a-44a0-a58c-51bbef440469" name="Steering Hydraulic Valve"
-              actor="true">
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="52def18c-015d-49c0-b30b-5db17caf4565" name="CP 1" orientation="OUT"
-                kind="FLOW"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="e79b9f98-5594-4ccb-9575-14701cdb23e8" name="CP 2" orientation="OUT"
-                kind="FLOW"/>
-          </ownedLogicalComponents>
-          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="ff536248-b195-4c05-be6c-b12a3a5d3f6b" name="Camber Valve Assembly"
-              actor="true" description="Two-way hydraulic valve within the Hydraulic System that controls pressurised fluid supply and return to the Camber Actuator, enabling active camber angle adjustment in both directions.">
+              description="Two-way hydraulic valve within the Hydraulic System that controls pressurised fluid supply and return to the Camber Actuator, enabling active camber angle adjustment in both directions."
+              actor="true">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="cccb3090-cf84-4288-be99-35202fe401b6" name="CP 1" orientation="OUT"
                 kind="FLOW"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="31596d7d-bc73-4f4e-9cd1-68d3e29185cc" name="CP 2" orientation="IN"
+                kind="FLOW"/>
+          </ownedLogicalComponents>
+          <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
+              id="3ec62f6d-0f5a-44a0-a58c-51bbef440469" name="Steering Hydraulic Valve"
+              actor="true">
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="224c4723-a4f8-41ec-9919-ace85ecafda4" targetElement="#d2cf9758-347a-4972-a14c-498546fa6342"
+                sourceElement="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="877ae53a-fd60-4d7e-9595-77008a570d3d" targetElement="#859946fa-3116-4769-ab7c-226f276e1437"
+                sourceElement="#3ec62f6d-0f5a-44a0-a58c-51bbef440469"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="52def18c-015d-49c0-b30b-5db17caf4565" name="CP 1" orientation="OUT"
+                kind="FLOW"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+                id="e79b9f98-5594-4ccb-9575-14701cdb23e8" name="CP 2" orientation="OUT"
                 kind="FLOW"/>
           </ownedLogicalComponents>
         </ownedLogicalComponents>
