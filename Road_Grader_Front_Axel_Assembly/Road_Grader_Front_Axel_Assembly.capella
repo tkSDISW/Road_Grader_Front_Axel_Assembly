@@ -151,6 +151,9 @@
               id="0ca00fc5-3591-4dd9-85d1-ff09159e5e93" name="Adapt to terrain variation"/>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
               id="716b9407-99e5-432d-8f11-2bfaf05cb7a6" name="Maintain wheel alignment geometry"/>
+          <ownedFunctions xsi:type="org.polarsys.capella.core.data.ctx:SystemFunction"
+              id="0531c0af-16eb-430c-9d9d-819e39851121" description="Temporary test function to verify correct SystemFunction type assignment post ISSUE-009 fix. Delete after verification."
+              name="Test System Function"/>
           <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
               id="0cec6bde-5753-4167-9d54-fe19ed20a6bd" targetElement="#6e0ab6fe-5ed3-4ef5-8c4c-5f26c24239eb"
               sourceElement="#733022d8-7696-4e8a-baae-9a0c46899f4e"/>
