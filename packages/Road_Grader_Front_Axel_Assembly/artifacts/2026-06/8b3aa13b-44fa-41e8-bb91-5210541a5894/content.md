@@ -206,3 +206,41 @@ Supply Steering hydraulic pressure → Transmit steering command to wheels → A
 - Decide fate of Return hydraulic fluid function
 - Build remaining 5 capability SABs (CAP-02 through CAP-06)
 
+---
+
+## 2026-06-11T15:46:19Z — milestone
+
+## Session: LA Transition — CAP-01 Steering Control
+
+### Transition result (engineer-executed)
+SA → LA transition produced the following automatically:
+- 6 logical actor components (Grader Super Structure, Hydraulic System, Environment, Service Personnel, Wheels — all from SA)
+- 17 logical functions under Root Logical Function (all SA functions transitioned)
+- CAP-01 Steering Control as CapabilityRealization
+- 5 component exchanges (Hydraulic Steering Supply, Structural Load Transfer, Terrain Load Input, Maintenance Access, Steering Angle Output)
+
+### Patch applied — logical sub-components
+
+| Commit | Change |
+|---|---|
+| b6f35433 | Added 7 logical sub-components under Logical System |
+
+### Sub-components created
+
+| Component | UUID | Description |
+|---|---|---|
+| Steering Hydraulic Valve | 05d1238a | Directional control valve — routes fluid to cylinder |
+| Steering Cylinder LH | 3ace72c6 | Left-hand cylinder — primary actuation |
+| Steering Cylinder RH | 34b2f536 | Right-hand cylinder — redundant actuation |
+| Tie Rod Assembly | dc2ca9c1 | Cross-axle synchronization linkage |
+| Steering Knuckle LH | 0d5cd6cd | Left kingpin/knuckle — primary driven element |
+| Steering Knuckle RH | 216a03d6 | Right kingpin/knuckle — tie rod slave |
+| Steering Stop Assembly | a618c726 | Mechanical travel limits at lock position |
+
+### Next steps for demo build
+1. Add logical function to Actuate Steering Cylinder LH and RH (decompose SA function)
+2. Allocate logical functions to sub-components
+3. Add logical component exchanges between sub-components
+4. Build [LAB] CAP-01 Steering Control diagram
+5. Define logical functional chain realizing SA Steering Control chain
+
