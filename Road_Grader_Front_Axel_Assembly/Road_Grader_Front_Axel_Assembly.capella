@@ -1066,7 +1066,7 @@
                 kind="FLOW"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="a8c693fc-7dbc-4ca0-aa7f-329e4fb9f2ed" name="Right Wheel HUb">
+              id="a8c693fc-7dbc-4ca0-aa7f-329e4fb9f2ed" name="Right Wheel Hub">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="e8c78bae-dbb2-4176-a13f-05ffca68f53e" name="CP 1" orientation="INOUT"
                 kind="FLOW"/>
@@ -1088,7 +1088,7 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="1059b68a-a891-455a-a9f3-46c07d33b95e" name="Kingpin Axel Assembly">
+              id="1059b68a-a891-455a-a9f3-46c07d33b95e" name="Kingpin Axle Assembly">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="74b8d43f-a9bb-4566-b602-36e46a8b6193" name="Port — Structural Load Transfer"
                 orientation="IN" kind="FLOW">
@@ -1176,7 +1176,7 @@
               id="48d277c5-fdec-4467-a6fa-09b15634092f" targetElement="#f3bdaf56-11c5-44b7-bb93-6010083272d2"
               sourceElement="#2ce26a27-5448-41e4-a4a6-cf22755d91a2"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="3ec62f6d-0f5a-44a0-a58c-51bbef440469" name="Steering Hydralic Valve"
+              id="3ec62f6d-0f5a-44a0-a58c-51bbef440469" name="Steering Hydraulic Valve"
               actor="true"/>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="ff536248-b195-4c05-be6c-b12a3a5d3f6b" name="Camber Valve Assembly"
@@ -1280,7 +1280,7 @@
             </ownedFeatures>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-              id="9c2fcbac-1aa8-4778-b5d2-30579afb32f3" name="Reigh WHeel " actor="true">
+              id="9c2fcbac-1aa8-4778-b5d2-30579afb32f3" name="Right Wheel" actor="true">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="5a4ececf-fae1-4b06-887b-bf6976c548ec" name="CP 2" orientation="OUT"
                 kind="FLOW"/>
