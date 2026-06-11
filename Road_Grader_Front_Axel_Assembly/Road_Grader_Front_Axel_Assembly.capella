@@ -1141,6 +1141,9 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="1f5cb8e5-aef9-4d6b-b4fc-a841ca764541" name="CP 6" orientation="INOUT"
                 kind="FLOW"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="517b828d-b44f-46e4-8134-6028b1de1e4c" targetElement="#c24b4e23-2022-4609-a27e-d164f0a8819c"
+                sourceElement="#216a03d6-b3e9-46b7-917c-4bd14cb52f87"/>
           </ownedLogicalComponents>
           <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
               id="a8c693fc-7dbc-4ca0-aa7f-329e4fb9f2ed" name="Right Wheel Hub">
