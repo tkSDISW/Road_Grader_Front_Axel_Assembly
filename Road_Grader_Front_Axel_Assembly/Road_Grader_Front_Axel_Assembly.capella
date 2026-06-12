@@ -15,8 +15,7 @@
     xmlns:org.polarsys.capella.core.data.interaction="http://www.polarsys.org/capella/core/interaction/6.0.0"
     xmlns:org.polarsys.capella.core.data.la="http://www.polarsys.org/capella/core/la/6.0.0"
     xmlns:org.polarsys.capella.core.data.oa="http://www.polarsys.org/capella/core/oa/6.0.0"
-    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0"
-   >
+    xmlns:org.polarsys.capella.core.data.pa="http://www.polarsys.org/capella/core/pa/6.0.0">
   <org.polarsys.capella.core.data.capellamodeller:Library id="c1d22496-a4f3-4fa9-888c-1cbee21d4adb"
       name="Road_Grader_Front_Axel_Assembly">
     <ownedExtensions xsi:type="libraries:ModelInformation" href="#2e489678-87e8-4f6b-96cd-c7cbfd3ab8b7"/>
@@ -920,7 +919,7 @@
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
                 id="245277e4-074a-42c4-adf2-f193d4346ad6" name="Control Camber">
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                  id="522a4ca7-e517-4eae-819f-6a14c32a20b8" name="Control Camber Valve ">
+                  id="522a4ca7-e517-4eae-819f-6a14c32a20b8" name="Control Camber Valve">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="6a411261-d4f6-49bf-8f48-7420d1ce1270" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -958,7 +957,7 @@
                   sourceElement="#a3b2a6f0-fe67-4a36-b309-fbc21c647e3a"/>
             </ownedFunctions>
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="5509472a-bac9-4b3d-929c-4a17d1ab5674" name="Receive Camber ">
+                id="5509472a-bac9-4b3d-929c-4a17d1ab5674" name="Receive Camber">
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
                   id="3dcf049a-39ee-4b7e-affb-d6737804495c" name="Receive RH Camber">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
@@ -983,7 +982,7 @@
                     id="cb343623-88b0-45b9-814f-d4eba2b8eb93" name="FOP 1"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                  id="65d2d32d-6d36-4c13-b0f2-1ade228381da" name="Limit RHCamber">
+                  id="65d2d32d-6d36-4c13-b0f2-1ade228381da" name="Limit RH Camber">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="2a9bfe4d-e562-40d3-9da0-685d4819fed7" name="FIP 1">
                   <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -1033,14 +1032,14 @@
                     id="5124232a-bfc7-4f96-aba5-7a22a9860e28" name="FOP 1"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                  id="ca270e4a-756c-4d5b-9ddf-e2ef370de0a9" name="Receiver Camber RH Wheel Hub">
+                  id="ca270e4a-756c-4d5b-9ddf-e2ef370de0a9" name="Receive Camber RH Wheel Hub">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="c8db8cc0-9305-4bd7-8a64-0e7a0bf70245" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                     id="073987ef-ba40-44cd-87f5-f89b86e2d2fa" name="FOP 1"/>
               </ownedFunctions>
               <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                  id="57891021-d718-48c4-ae7c-3d29130b343b" name="Recieve Camber in LH Knuckle">
+                  id="57891021-d718-48c4-ae7c-3d29130b343b" name="Receive Camber in LH Knuckle">
                 <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                     id="74f79e5c-68d2-411b-8325-634243aa75f3" name="FIP 1"/>
                 <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
@@ -1057,10 +1056,10 @@
                   id="5ac80110-24dd-42e5-9dea-1fc2fac6c68f" targetElement="#2d84a45a-2f22-45d7-86f0-9e757cffc9db"
                   sourceElement="#c2c70a2a-8da3-484a-80e7-29f5e17be263"/>
               <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                  id="d082e120-37ea-4bda-b9c4-5f56ec0fdaea" name="Camber" target="#c8db8cc0-9305-4bd7-8a64-0e7a0bf70245"
-                  source="#5124232a-bfc7-4f96-aba5-7a22a9860e28"/>
+                  id="d082e120-37ea-4bda-b9c4-5f56ec0fdaea" name="RH Knuckle Camber Angle"
+                  target="#c8db8cc0-9305-4bd7-8a64-0e7a0bf70245" source="#5124232a-bfc7-4f96-aba5-7a22a9860e28"/>
               <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                  id="b3ac3661-5945-4fc1-9095-8a24d3e017a7" name="FunctionalExchange 2"
+                  id="b3ac3661-5945-4fc1-9095-8a24d3e017a7" name="LH Knuckle Camber Angle"
                   target="#12e3c762-3049-4bfc-b884-1a316e16e190" source="#b1a3ca87-6079-4690-8244-e5d1c22a57b5"/>
             </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
@@ -1119,16 +1118,16 @@
                 id="b2a1457a-1c4b-4c79-abfe-b97dddaaf31e" name="FunctionalExchange 13"
                 target="#ab2d10fa-72ce-4df1-860a-2d7e7c47b588" source="#9268161f-d2c7-4189-9957-f80113908724"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="b3550d72-3953-4630-ba6c-53433a8e2cf6" name="FunctionalExchange 14"
+                id="b3550d72-3953-4630-ba6c-53433a8e2cf6" name="Actuator Force RH"
                 target="#0e0baa90-baaa-483d-8a0c-2d8abe1a7404" source="#60850622-e2f5-46c4-a5dc-2cf329d47bc2"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="aafd82be-2523-4286-9139-cd974395c8c7" name="FunctionalExchange 15"
+                id="aafd82be-2523-4286-9139-cd974395c8c7" name="Camber Command Feedback"
                 target="#6a411261-d4f6-49bf-8f48-7420d1ce1270" source="#42e7599c-7485-4f59-b5a6-96538ead1e36"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="c2569076-7c83-4262-8a5b-d076a192c58e" name="FunctionalExchange 17"
+                id="c2569076-7c83-4262-8a5b-d076a192c58e" name="Camber Transfer Force"
                 target="#01dfd505-b4ed-4c64-bd9e-290be734d891" source="#ee2f3f57-77ae-4532-ad67-ad21df83ae8d"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="c5fd4734-4f5b-4ebc-b9ed-677f81d367a8" name="FunctionalExchange 18"
+                id="c5fd4734-4f5b-4ebc-b9ed-677f81d367a8" name="Transferred Camber Angle"
                 target="#b724aedd-d805-428d-bb04-07de66056895" source="#fabb20cf-46af-4089-824f-f88af9ae52c2"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
                 id="823f7a24-1a92-41a2-afe0-c2ac8d3ec1c1" name="FunctionalExchange 20"
@@ -1137,7 +1136,7 @@
                 id="8347bcff-7322-4976-bed7-925ac9615f21" name="FunctionalExchange 21"
                 target="#f57378d6-4cd0-40a9-ae86-c50f9082d51d" source="#fe18072f-7182-4ce1-8610-60a1e38540a8"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="10e15ca5-90ca-4bad-82ad-3621dccaaf1d" name="FunctionalExchange 6"
+                id="10e15ca5-90ca-4bad-82ad-3621dccaaf1d" name="Valve Open Signal"
                 target="#70e00298-eae3-4dee-b4e0-d973d8b0e9bd" source="#8722603c-4f29-44de-9c1b-9158260a81b2">
               <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                   id="c2918fb2-c99a-47de-bd1c-fed9d722ea9f" targetElement="#2c36519d-9aa2-4545-a604-eaf60d17d312"
@@ -1151,26 +1150,26 @@
                   sourceElement="#b4e2799a-d10b-4055-b961-6e063eef30b1"/>
             </ownedFunctionalExchanges>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="fbde15d0-ad63-418c-ad75-5abb607f6569" name="Camber" target="#2a9bfe4d-e562-40d3-9da0-685d4819fed7"
-                source="#83cd40c7-58a0-46e0-9c09-a20912c7795b">
+                id="fbde15d0-ad63-418c-ad75-5abb607f6569" name="KP Assembly Camber Load"
+                target="#2a9bfe4d-e562-40d3-9da0-685d4819fed7" source="#83cd40c7-58a0-46e0-9c09-a20912c7795b">
               <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                   id="83d7bb3b-40f4-422b-ad21-0fb302ab8afc" targetElement="#26e3e8ee-2930-43e0-9644-41f3b42915fd"
                   sourceElement="#fbde15d0-ad63-418c-ad75-5abb607f6569"/>
             </ownedFunctionalExchanges>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="cc3ee519-d32b-45fe-b22b-431567c49fbb" name="Camber" target="#1c3e4e8f-9585-47b4-ae57-05e31d8bc3cc"
-                source="#3cfb5109-1e82-4791-bce5-3509214ae6d7"/>
+                id="cc3ee519-d32b-45fe-b22b-431567c49fbb" name="RH Assembly Camber Load"
+                target="#1c3e4e8f-9585-47b4-ae57-05e31d8bc3cc" source="#3cfb5109-1e82-4791-bce5-3509214ae6d7"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="2a8e1514-fc33-411c-983b-bdf142f60646" name="FunctionalExchange 19"
+                id="2a8e1514-fc33-411c-983b-bdf142f60646" name="Actuator Force LH"
                 target="#3f0c0380-221d-4b0b-a5f9-7e53be6ae3de" source="#57831db2-e896-45c7-9d3e-1b25e0dc2a76"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="6d3fc50b-5639-4bb9-98e9-e3adff3b7ecf" name="Constran RH Cambse"
+                id="6d3fc50b-5639-4bb9-98e9-e3adff3b7ecf" name="Constrain RH Camber"
                 target="#74f79e5c-68d2-411b-8325-634243aa75f3" source="#cb343623-88b0-45b9-814f-d4eba2b8eb93"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="26202c4d-c14e-408a-a261-467b0d6c6c23" name="FunctionalExchange 25"
+                id="26202c4d-c14e-408a-a261-467b0d6c6c23" name="RH Wheel Camber Output"
                 target="#b724aedd-d805-428d-bb04-07de66056895" source="#073987ef-ba40-44cd-87f5-f89b86e2d2fa"/>
             <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-                id="6b0108db-5a7a-4873-8034-d401b750b318" name="FunctionalExchange 26"
+                id="6b0108db-5a7a-4873-8034-d401b750b318" name="LH Wheel Camber Output"
                 target="#68019c0f-bfef-4109-8d71-773d5a507963" source="#ea98789f-6c1e-43ef-b33a-ed9bd2fab04e"/>
           </ownedLogicalFunctions>
         </ownedFunctionPkg>
