@@ -637,6 +637,31 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="f88c2b17-243f-41ab-a9c6-9faa66c2c8e7" involved="#b2a1457a-1c4b-4c79-abfe-b97dddaaf31e"
                 source="#eebe41c1-daf2-4a3b-8bd3-9d01d35a3d5a" target="#4c676af0-7369-45df-827a-9e227734f2c2"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="d73bc4af-0b71-406b-8a7d-1e9f1e5b2909" involved="#39a039cf-18b3-4709-8263-2602eeca0542"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="c2c5a531-4ffa-44af-97b5-b94b8ec3b1e3" involved="#823f7a24-1a92-41a2-afe0-c2ac8d3ec1c1"
+                source="#723bbf76-1f2c-4d90-81eb-08e6f4851646" target="#d73bc4af-0b71-406b-8a7d-1e9f1e5b2909"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="a9bbfe90-bc4e-4689-9789-007ec6e3f865" involved="#1a4eab13-d5c1-45bb-951b-a0361ce57424"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="40e7d2d4-5375-4851-8e1c-43564e6b08b9" involved="#8347bcff-7322-4976-bed7-925ac9615f21"
+                source="#4c676af0-7369-45df-827a-9e227734f2c2" target="#a9bbfe90-bc4e-4689-9789-007ec6e3f865"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="382bd9ea-d9ea-408f-b81e-33beb4f066c4" involved="#e2d23c65-381a-414c-994a-41e4d71e74b8"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="5ceabf54-4a2d-4894-bf31-5b38c5875602" involved="#212bd0bf-5735-4873-a311-6c96b965a783"
+                source="#eebe41c1-daf2-4a3b-8bd3-9d01d35a3d5a" target="#382bd9ea-d9ea-408f-b81e-33beb4f066c4"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="51806b52-8429-4fcf-8afe-75cb0fc588dd" involved="#b1f3e50f-694f-42bd-b443-13c00d730801"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="d8682d13-3ae6-4e92-9e26-d4c2351678e5" involved="#e4e584f9-b4bb-4c28-9011-eb32fa0ad4f9"
+                source="#a9bbfe90-bc4e-4689-9789-007ec6e3f865" target="#51806b52-8429-4fcf-8afe-75cb0fc588dd"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
+                id="b58ff3b6-f1b2-4b3e-a2a4-f7c91fbf64fd" involved="#55f6c810-33b1-4b90-a009-93f0b9e7cb67"/>
+            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
+                id="71992926-8639-4a6c-9f33-eb5e77e4d95e" involved="#01b135a5-a742-49ee-acb5-7c1c32a10011"
+                source="#d73bc4af-0b71-406b-8a7d-1e9f1e5b2909" target="#b58ff3b6-f1b2-4b3e-a2a4-f7c91fbf64fd"/>
           </ownedFunctionalChains>
           <ownedFunctionalChains xsi:type="org.polarsys.capella.core.data.fa:FunctionalChain"
               id="271a02ad-c196-4ebb-b966-109ab2c8d062" name="Camber Control">
@@ -654,9 +679,6 @@
                 source="#16d386dd-10be-46a6-89e8-5df50cbcd085" target="#a5afa693-1198-4664-9088-990d9e708ede"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="75a031fe-4c39-4f17-8c50-3675c5236473" involved="#618c9ae2-f63b-4b63-8305-deda1d2ebccd"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
-                id="6e2b162b-80a2-4333-b560-5c3fe0bfee12" involved="#b3550d72-3953-4630-ba6c-53433a8e2cf6"
-                source="#f758dfe3-4010-4c20-a063-c3ea5d99bffc" target="#75a031fe-4c39-4f17-8c50-3675c5236473"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="3c127376-9f2d-45ba-ade9-e4bcccb2be09" involved="#cc3ee519-d32b-45fe-b22b-431567c49fbb"
                 source="#75a031fe-4c39-4f17-8c50-3675c5236473" target="#572c3b35-8045-48fa-8a70-9bc25aa41e0c"/>
@@ -697,8 +719,6 @@
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
                 id="dbb04ae3-d0c6-49aa-a990-944f3e0f35fe" involved="#26202c4d-c14e-408a-a261-467b0d6c6c23"
                 source="#b7cfa711-07b2-42e5-8c3e-93413c09cc97" target="#a3d2a363-cdd1-417d-a368-a972e1848d6c"/>
-            <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
-                id="f758dfe3-4010-4c20-a063-c3ea5d99bffc" involved="#afa28c76-f05c-4050-b48f-0028944dfb11"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementFunction"
                 id="fbc5e4f7-2b11-43e8-95b0-6cd3db97e804" involved="#afa28c76-f05c-4050-b48f-0028944dfb11"/>
             <ownedFunctionalChainInvolvements xsi:type="org.polarsys.capella.core.data.fa:FunctionalChainInvolvementLink"
@@ -761,6 +781,12 @@
                   id="38d00561-de4f-4806-928d-84ecdaaa3077" name="FIP 1"/>
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="ab2d10fa-72ce-4df1-860a-2d7e7c47b588" name="FIP 2"/>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="8e6716d7-9bc9-4fdd-b9c7-1a0378c54cf0" name="FIP 1">
+                <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
+                    id="e853d405-3f69-4005-992f-ba2c61a2bfbe" targetElement="#607b80db-0d78-4cd0-a4fa-0860e67595eb"
+                    sourceElement="#8e6716d7-9bc9-4fdd-b9c7-1a0378c54cf0"/>
+              </inputs>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                   id="fe18072f-7182-4ce1-8610-60a1e38540a8" name="FOP 1"/>
             </ownedFunctions>
@@ -772,6 +798,8 @@
                     id="02a27095-36a9-4b0f-afed-d8c3f06da353" targetElement="#3a6f675f-e835-49d1-be8d-7b93f60efa9c"
                     sourceElement="#d25e11b8-4053-4073-9b68-d5ce385dfc14"/>
               </inputs>
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="a6049e61-dd08-4b63-98c9-2a70a05af119" name="FIP 1"/>
               <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
                   id="9ff2684b-b9c2-4db4-96a5-93907616bf65" name="FOP 2">
                 <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
@@ -819,6 +847,8 @@
                   id="89fb8a21-162f-4568-a78a-e28fb60139e5" targetElement="#f9952dad-e9ab-41cd-b5e8-4e2959cb550d"
                   sourceElement="#e23bd5b6-fc1b-42e9-bb50-9c8d281b4473"/>
             </outputs>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="bfaa6262-a5ce-468d-82ed-15f14a84bc96" name="FOP 2"/>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="25e139b4-0b02-46bd-bdab-400be6a9b07b" targetElement="#bec6f50a-d142-483a-b30c-b5db112073e2"
                 sourceElement="#e2d23c65-381a-414c-994a-41e4d71e74b8"/>
@@ -837,12 +867,16 @@
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="a84bd787-bd75-43c4-a051-f2d7e2805b46" name="Receive steering angle output">
-            <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
-                id="8e6716d7-9bc9-4fdd-b9c7-1a0378c54cf0" name="FIP 1">
-              <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
-                  id="e853d405-3f69-4005-992f-ba2c61a2bfbe" targetElement="#607b80db-0d78-4cd0-a4fa-0860e67595eb"
-                  sourceElement="#8e6716d7-9bc9-4fdd-b9c7-1a0378c54cf0"/>
-            </inputs>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="b1f3e50f-694f-42bd-b443-13c00d730801" name="Receive L Steerign Angle">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="33dfa3fe-35c3-4f02-a3fb-dfcb25553c65" name="FIP 2"/>
+            </ownedFunctions>
+            <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
+                id="55f6c810-33b1-4b90-a009-93f0b9e7cb67" name="Receive R Steering Angle">
+              <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
+                  id="8d1d8b9d-95d4-464e-99b3-7b99816fafe1" name="FIP 2"/>
+            </ownedFunctions>
             <ownedFunctionRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionRealization"
                 id="8eb94860-1bb5-4923-ac25-6fcd715290f1" targetElement="#7df3856e-d158-4358-9258-9c4525003f3f"
                 sourceElement="#a84bd787-bd75-43c4-a051-f2d7e2805b46"/>
@@ -906,14 +940,18 @@
                 id="60850622-e2f5-46c4-a5dc-2cf329d47bc2" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="39a039cf-18b3-4709-8263-2602eeca0542" name="Deliver Rotation">
+              id="39a039cf-18b3-4709-8263-2602eeca0542" name="Deliver R Rotation">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="5b92ae6e-2e3d-4f5f-ab1f-84f16065d611" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="3cf5711e-7876-4771-9220-9efd1f1f097f" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-              id="1a4eab13-d5c1-45bb-951b-a0361ce57424" name="Deliver Rotation">
+              id="1a4eab13-d5c1-45bb-951b-a0361ce57424" name="Deliver L Rotation">
             <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                 id="f57378d6-4cd0-40a9-ae86-c50f9082d51d" name="FIP 1"/>
+            <outputs xsi:type="org.polarsys.capella.core.data.fa:FunctionOutputPort"
+                id="37f2a095-c09b-43c6-8184-b4e1e962d17c" name="FOP 1"/>
           </ownedFunctions>
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="245277e4-074a-42c4-adf2-f193d4346ad6" name="Control Camber">
@@ -1084,7 +1122,7 @@
                 sourceElement="#ae0d5d6c-2df5-412c-9a9e-4730a06c10b6"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="fadaae3d-5c31-461d-ab5e-c98d823f48af" name="Constrained Steering Angle"
+              id="fadaae3d-5c31-461d-ab5e-c98d823f48af" name="Constrain L Steering Angle"
               target="#8e6716d7-9bc9-4fdd-b9c7-1a0378c54cf0" source="#e23bd5b6-fc1b-42e9-bb50-9c8d281b4473">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="4dab62dd-7207-433f-af11-f75d63eb5339" targetElement="#480e6640-ebb2-4a25-becc-b3673b91bf92"
@@ -1165,6 +1203,15 @@
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="6b0108db-5a7a-4873-8034-d401b750b318" name="LH Wheel Camber Output"
               target="#68019c0f-bfef-4109-8d71-773d5a507963" source="#ea98789f-6c1e-43ef-b33a-ed9bd2fab04e"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="faf83f78-0a9f-41ea-8645-bc5cba2481a9" name="Constrian R Steering Angle"
+              target="#a6049e61-dd08-4b63-98c9-2a70a05af119" source="#bfaa6262-a5ce-468d-82ed-15f14a84bc96"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="e4e584f9-b4bb-4c28-9011-eb32fa0ad4f9" name="FunctionalExchange 27"
+              target="#33dfa3fe-35c3-4f02-a3fb-dfcb25553c65" source="#37f2a095-c09b-43c6-8184-b4e1e962d17c"/>
+          <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
+              id="01b135a5-a742-49ee-acb5-7c1c32a10011" name="FunctionalExchange 28"
+              target="#8d1d8b9d-95d4-464e-99b3-7b99816fafe1" source="#3cf5711e-7876-4771-9220-9efd1f1f097f"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -1697,14 +1744,8 @@
             id="4c665da4-fe0c-4153-b972-10746c12d85d" name="Wheels" description="The front wheels and tyres mounted to the axle assembly. Receive steering angle output from the knuckles and transmit all vehicle loads to the road surface."
             actor="true">
           <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
-              id="19dd90ff-0232-4ee0-bb82-b9c434fd5253" targetElement="#3e731f27-0b81-4aa6-8b74-d9fb01056a31"
-              sourceElement="#700d38f0-cda7-47ac-8391-073fac8a0e14"/>
-          <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
               id="ecf75e09-8681-468a-ba15-05142c8fd259" targetElement="#40cbba77-dc64-48cd-bd5a-7b09e29de13b"
               sourceElement="#938d23fc-2bf0-41c4-bdf2-3728fd8a498d"/>
-          <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
-              id="700d38f0-cda7-47ac-8391-073fac8a0e14" targetElement="#a84bd787-bd75-43c4-a051-f2d7e2805b46"
-              sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="938d23fc-2bf0-41c4-bdf2-3728fd8a498d" targetElement="#b5a6833b-d3f7-404b-bb64-17edc2174030"
               sourceElement="#4c665da4-fe0c-4153-b972-10746c12d85d"/>
@@ -1720,6 +1761,9 @@
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="c53c471b-5ba6-48e9-8680-74a1c4e8b11e" targetElement="#a8636ba1-3f24-4824-a13f-c53e1c9d95f0"
                 sourceElement="#72feab6d-c76d-4611-9ebe-5a2dd7deb841"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="14ff6b53-6f87-47d9-98a3-925cb5a295a8" targetElement="#b1f3e50f-694f-42bd-b443-13c00d730801"
+                sourceElement="#72feab6d-c76d-4611-9ebe-5a2dd7deb841"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="b1a842fe-d765-469d-b651-8c248a35191c" name="Port — Steering Angle Output"
                 orientation="IN" kind="FLOW">
@@ -1732,6 +1776,9 @@
               id="9c2fcbac-1aa8-4778-b5d2-30579afb32f3" name="Right Wheel" actor="true">
             <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
                 id="5e46e0da-45fe-4ee8-a6fe-b3577c31636c" targetElement="#3dcf049a-39ee-4b7e-affb-d6737804495c"
+                sourceElement="#9c2fcbac-1aa8-4778-b5d2-30579afb32f3"/>
+            <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
+                id="85d1e965-4739-4e0f-a26c-e9f316a3ffff" targetElement="#55f6c810-33b1-4b90-a009-93f0b9e7cb67"
                 sourceElement="#9c2fcbac-1aa8-4778-b5d2-30579afb32f3"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
                 id="5a4ececf-fae1-4b06-887b-bf6976c548ec" name="CP 2" orientation="OUT"
