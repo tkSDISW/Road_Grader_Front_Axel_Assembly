@@ -1795,10 +1795,4 @@
       </ownedArchitectures>
     </ownedModelRoots>
   </org.polarsys.capella.core.data.capellamodeller:Library>
-  <org.polarsys.capella.core.data.capellamodeller:Library id="c1d22496-a4f3-4fa9-888c-1cbee21d4adb"
-      name="Road_Grader_Front_Axel_Assembly">
-    <ownedExtensions xsi:type="libraries:ModelInformation" id="2e489678-87e8-4f6b-96cd-c7cbfd3ab8b7"/>
-    <keyValuePairs xsi:type="org.polarsys.capella.core.data.capellacore:KeyValue"
-        id="4b3747c1-faed-4184-a3f7-cbd3dccdad00" key="projectApproach" value="SingletonComponents"/>
-  </org.polarsys.capella.core.data.capellamodeller:Library>
 </xmi:XMI>
