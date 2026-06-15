@@ -5264,6 +5264,8 @@
                   id="b75f2a38-52e3-46f6-87b0-b0c13dea2241" name="max_value" value="36.0"/>
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:FloatPropertyValue"
                   id="5e6f4f7f-f3b5-475a-9503-7d1c539b1e6f" name="min_value" value="34.0"/>
+              <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
+                  id="39df3943-3809-4ba6-af0d-4969adf22aa4" name="reference" value="SC-011 — Maximum steering angle 35° ±1° both directions. Traces to Constrain R Steering Angle functional exchange and Limit steering travel function."/>
             </ownedPropertyValueGroups>
             <ownedTraces xsi:type="org.polarsys.capella.core.data.capellacommon:TransfoLink"
                 id="c1410824-2d8d-4b97-aa3d-6a60cf198cfa" targetElement="#829f60d6-0b36-4d9f-8e64-42c5e4c4ac9a"
