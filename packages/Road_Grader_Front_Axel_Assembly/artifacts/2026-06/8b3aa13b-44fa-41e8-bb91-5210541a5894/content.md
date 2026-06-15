@@ -483,3 +483,30 @@ Steering Structure and Functions diagram is clean. All exchanges named. Steering
 ### Remaining open item
 Cylinder Displacement LH (uuid: 97d3d945) is visible in the diagram but not included in the Steering Control functional chain involve list. The RH equivalent (Cylinder Displacement, 0c976008) is in the chain. The LH path should also be included for completeness.
 
+---
+
+## 2026-06-15T12:09:30Z — decision
+
+## Decision: Cylinder Displacement LH excluded from Steering Control functional chain — by design
+
+**Date:** 2026-06-15
+
+### Decision
+`Cylinder Displacement LH` (uuid: 97d3d945, Actuate steering cylinder LH → Synchronize wheel steering angles) will NOT be added to the Steering Control functional chain.
+
+### Rationale
+Adding `Cylinder Displacement LH` creates a loop in the functional chain graph. Both `Cylinder Displacement` (RH, uuid: 0c976008) and `Cylinder Displacement LH` converge at `Synchronize wheel steering angles`. The chain already includes `Synchronize wheel steering angles` → `Sync Angle to LH Knuckle` → `Rotate LH Knuckle`, which feeds back toward the LH cylinder path. Adding the LH cylinder displacement input would make the chain non-linear — correctly rejected by Capella.
+
+### Architecture note
+This is a structural consequence of the dual-cylinder design. Two parallel actuation inputs (LH and RH cylinders) converge at a single synchronization function. A single linear functional chain can only represent one path through this convergence point. `Cylinder Displacement` (RH) is retained in the chain as the primary representative path.
+
+### Alternative representation
+If both parallel paths need to be formally captured, the correct approach is to define two separate functional chains:
+- `Steering Control LH` — through the LH cylinder path
+- `Steering Control RH` — through the RH cylinder path
+
+Or use a `FunctionalChainReference` to represent the parallel nature. Both approaches are deferred — the current single chain is sufficient for the demo scope.
+
+### Status
+Closed — no further action required on this item.
+
