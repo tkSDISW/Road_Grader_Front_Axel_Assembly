@@ -873,7 +873,7 @@
           <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
               id="a84bd787-bd75-43c4-a051-f2d7e2805b46" name="Receive steering angle output">
             <ownedFunctions xsi:type="org.polarsys.capella.core.data.la:LogicalFunction"
-                id="b1f3e50f-694f-42bd-b443-13c00d730801" name="Receive L Steerign Angle">
+                id="b1f3e50f-694f-42bd-b443-13c00d730801" name="Receive L Steering Angle">
               <inputs xsi:type="org.polarsys.capella.core.data.fa:FunctionInputPort"
                   id="33dfa3fe-35c3-4f02-a3fb-dfcb25553c65" name="FIP 2"/>
             </ownedFunctions>
@@ -1146,16 +1146,16 @@
               id="bb217cfc-a513-4bcb-a3a3-04b70ef3e03c" name="Cylinder Displacement RH"
               target="#e457db22-5eef-4031-a829-45496e94e074" source="#f292a89d-8eda-4764-b593-4aad7a7ffc4e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="29a24d86-c6cd-4d80-917f-ca26e4e87c3a" name="FunctionalExchange 11"
+              id="29a24d86-c6cd-4d80-917f-ca26e4e87c3a" name="Hydraulic Pressure to RH Cylinder"
               target="#e0af76cb-cff8-4bc8-bc20-2d17ca5162e9" source="#79549dc5-e270-461a-b049-b8c768fc9b32"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="5db7e7b2-79ff-49d4-87be-a625cade0e72" name="FunctionalExchange 10"
+              id="5db7e7b2-79ff-49d4-87be-a625cade0e72" name="Hydraulic Pressure to LH Cylinder"
               target="#2f8b15ce-2154-41d2-bfd1-5c9172dcbaa1" source="#1168c5ad-a965-4faa-8c90-b827a5332064"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="0f4dd569-5616-43ec-a97d-e41c31fc0330" name="Steering LH " target="#38d00561-de4f-4806-928d-84ecdaaa3077"
               source="#757b5840-ab02-4669-8788-6d646a152479"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="b2a1457a-1c4b-4c79-abfe-b97dddaaf31e" name="FunctionalExchange 13"
+              id="b2a1457a-1c4b-4c79-abfe-b97dddaaf31e" name="Sync Angle to LH Knuckle"
               target="#ab2d10fa-72ce-4df1-860a-2d7e7c47b588" source="#9268161f-d2c7-4189-9957-f80113908724"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="b3550d72-3953-4630-ba6c-53433a8e2cf6" name="Actuator Force RH" target="#0e0baa90-baaa-483d-8a0c-2d8abe1a7404"
@@ -1164,14 +1164,14 @@
               id="c2569076-7c83-4262-8a5b-d076a192c58e" name="Camber Transfer Force"
               target="#01dfd505-b4ed-4c64-bd9e-290be734d891" source="#ee2f3f57-77ae-4532-ad67-ad21df83ae8d"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="823f7a24-1a92-41a2-afe0-c2ac8d3ec1c1" name="FunctionalExchange 20"
+              id="823f7a24-1a92-41a2-afe0-c2ac8d3ec1c1" name="RH Knuckle Rotation Output"
               target="#5b92ae6e-2e3d-4f5f-ab1f-84f16065d611" source="#d99b09f2-49cc-422e-80d1-cd67f2ac863b"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="8347bcff-7322-4976-bed7-925ac9615f21" name="FunctionalExchange 21"
+              id="8347bcff-7322-4976-bed7-925ac9615f21" name="LH Knuckle Rotation Output"
               target="#f57378d6-4cd0-40a9-ae86-c50f9082d51d" source="#fe18072f-7182-4ce1-8610-60a1e38540a8"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="10e15ca5-90ca-4bad-82ad-3621dccaaf1d" name="Extend" target="#70e00298-eae3-4dee-b4e0-d973d8b0e9bd"
-              source="#8722603c-4f29-44de-9c1b-9158260a81b2">
+              id="10e15ca5-90ca-4bad-82ad-3621dccaaf1d" name="Camber Extend Signal"
+              target="#70e00298-eae3-4dee-b4e0-d973d8b0e9bd" source="#8722603c-4f29-44de-9c1b-9158260a81b2">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="c2918fb2-c99a-47de-bd1c-fed9d722ea9f" targetElement="#2c36519d-9aa2-4545-a604-eaf60d17d312"
                 sourceElement="#10e15ca5-90ca-4bad-82ad-3621dccaaf1d"/>
@@ -1206,17 +1206,17 @@
               id="6b0108db-5a7a-4873-8034-d401b750b318" name="LH Wheel Camber Output"
               target="#68019c0f-bfef-4109-8d71-773d5a507963" source="#ea98789f-6c1e-43ef-b33a-ed9bd2fab04e"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="faf83f78-0a9f-41ea-8645-bc5cba2481a9" name="Constrian R Steering Angle"
+              id="faf83f78-0a9f-41ea-8645-bc5cba2481a9" name="Constrain R Steering Angle"
               target="#a6049e61-dd08-4b63-98c9-2a70a05af119" source="#bfaa6262-a5ce-468d-82ed-15f14a84bc96"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="e4e584f9-b4bb-4c28-9011-eb32fa0ad4f9" name="FunctionalExchange 27"
+              id="e4e584f9-b4bb-4c28-9011-eb32fa0ad4f9" name="LH Steering Angle Delivered"
               target="#33dfa3fe-35c3-4f02-a3fb-dfcb25553c65" source="#37f2a095-c09b-43c6-8184-b4e1e962d17c"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="01b135a5-a742-49ee-acb5-7c1c32a10011" name="FunctionalExchange 28"
+              id="01b135a5-a742-49ee-acb5-7c1c32a10011" name="RH Steering Angle Delivered"
               target="#8d1d8b9d-95d4-464e-99b3-7b99816fafe1" source="#3cf5711e-7876-4771-9220-9efd1f1f097f"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="0e5234da-c8e9-48b4-a343-bb2ee08c2086" name="Retract" target="#88c725fd-d97f-43fb-82f1-045e711ab4bd"
-              source="#8f5e111c-097e-4368-b1c0-6c22e875cb1c"/>
+              id="0e5234da-c8e9-48b4-a343-bb2ee08c2086" name="Camber Retract Signal"
+              target="#88c725fd-d97f-43fb-82f1-045e711ab4bd" source="#8f5e111c-097e-4368-b1c0-6c22e875cb1c"/>
         </ownedLogicalFunctions>
       </ownedFunctionPkg>
       <ownedAbstractCapabilityPkg xsi:type="org.polarsys.capella.core.data.la:CapabilityRealizationPkg"
@@ -1329,8 +1329,9 @@
               sourceElement="#adf49c7c-5f74-42e2-884a-c4f890cb7459"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="3b5ed0e4-7c0a-4b77-9f15-ee9885c2dc3a" name="Extend Supply" source="#cccb3090-cf84-4288-be99-35202fe401b6"
-            target="#b9a59338-25c7-40eb-a053-287cdf21d482" kind="FLOW">
+            id="3b5ed0e4-7c0a-4b77-9f15-ee9885c2dc3a" name="Camber Extend Supply"
+            source="#cccb3090-cf84-4288-be99-35202fe401b6" target="#b9a59338-25c7-40eb-a053-287cdf21d482"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="371bed2f-b092-4a2d-83b5-f2f6a53bfafb" targetElement="#10e15ca5-90ca-4bad-82ad-3621dccaaf1d"
               sourceElement="#3b5ed0e4-7c0a-4b77-9f15-ee9885c2dc3a"/>
@@ -1344,15 +1345,17 @@
               sourceElement="#e32f460f-733a-4003-ac16-fbc899805c7d"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="9a37a68b-fd1a-4ee3-9660-7caee79c4708" name="C 9" source="#52def18c-015d-49c0-b30b-5db17caf4565"
-            target="#1971c9ce-3539-4a91-9cb9-355684edfb3f" kind="FLOW">
+            id="9a37a68b-fd1a-4ee3-9660-7caee79c4708" name="Hydraulic Supply to LH Cylinder"
+            source="#52def18c-015d-49c0-b30b-5db17caf4565" target="#1971c9ce-3539-4a91-9cb9-355684edfb3f"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="36f41fcf-a4b7-41d2-b57a-ab100baf5dc4" targetElement="#5db7e7b2-79ff-49d4-87be-a625cade0e72"
               sourceElement="#9a37a68b-fd1a-4ee3-9660-7caee79c4708"/>
         </ownedComponentExchanges>
         <ownedComponentExchanges xsi:type="org.polarsys.capella.core.data.fa:ComponentExchange"
-            id="a60285ee-59a2-4185-993a-a47b5e18d013" name="C 10" source="#e79b9f98-5594-4ccb-9575-14701cdb23e8"
-            target="#dadd5fe8-6536-4590-a287-43681370193c" kind="FLOW">
+            id="a60285ee-59a2-4185-993a-a47b5e18d013" name="Hydraulic Supply to RH Cylinder"
+            source="#e79b9f98-5594-4ccb-9575-14701cdb23e8" target="#dadd5fe8-6536-4590-a287-43681370193c"
+            kind="FLOW">
           <ownedComponentExchangeFunctionalExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeFunctionalExchangeAllocation"
               id="b135be08-db68-47c2-a17e-d6dc315f5ca7" targetElement="#29a24d86-c6cd-4d80-917f-ca26e4e87c3a"
               sourceElement="#a60285ee-59a2-4185-993a-a47b5e18d013"/>
