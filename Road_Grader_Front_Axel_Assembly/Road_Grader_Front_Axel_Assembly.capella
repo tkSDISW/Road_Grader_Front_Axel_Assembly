@@ -5510,8 +5510,8 @@
                   sourceElement="#1002a0f3-872c-4d45-a0b8-44cf7c4b8c68"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="461e59d0-d6f4-48aa-a3b7-aaf40a287f86" name="CP 5" orientation="INOUT"
-                kind="FLOW">
+                id="461e59d0-d6f4-48aa-a3b7-aaf40a287f86" name="Port — Camber Adjustment RH"
+                orientation="INOUT" kind="FLOW">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                   id="e08c9774-2284-46b5-bc0b-44038ec70fad" targetElement="#32fb2cf2-7933-4181-a01a-50a7ea3b95ae"
                   sourceElement="#461e59d0-d6f4-48aa-a3b7-aaf40a287f86"/>
@@ -5520,8 +5520,8 @@
                   sourceElement="#461e59d0-d6f4-48aa-a3b7-aaf40a287f86"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
-                id="bf4bf602-978b-4b7b-914f-32599096c99b" name="CP 5" orientation="INOUT"
-                kind="FLOW">
+                id="bf4bf602-978b-4b7b-914f-32599096c99b" name="Port — Camber Adjustment LH"
+                orientation="INOUT" kind="FLOW">
               <ownedPortRealizations xsi:type="org.polarsys.capella.core.data.information:PortRealization"
                   id="907f6880-3f5e-4a0c-b298-21a0fc267ec5" targetElement="#46964368-8749-4eb9-b5c1-8bfe715fd41c"
                   sourceElement="#bf4bf602-978b-4b7b-914f-32599096c99b"/>
