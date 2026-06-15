@@ -1120,7 +1120,7 @@
                 sourceElement="#212bd0bf-5735-4873-a311-6c96b965a783"/>
           </ownedFunctionalExchanges>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="ae0d5d6c-2df5-412c-9a9e-4730a06c10b6" name="Steering RH " target="#d25e11b8-4053-4073-9b68-d5ce385dfc14"
+              id="ae0d5d6c-2df5-412c-9a9e-4730a06c10b6" name="Steering RH" target="#d25e11b8-4053-4073-9b68-d5ce385dfc14"
               source="#54c939f1-9c2d-4b3d-9698-e748837b1e54">
             <ownedFunctionalExchangeRealizations xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchangeRealization"
                 id="60bb9d36-f521-4077-8ed4-51c86d398ae0" targetElement="#8e928f30-a203-4b35-8910-1eee0737be26"
@@ -1152,7 +1152,7 @@
               id="5db7e7b2-79ff-49d4-87be-a625cade0e72" name="Hydraulic Pressure to LH Cylinder"
               target="#2f8b15ce-2154-41d2-bfd1-5c9172dcbaa1" source="#1168c5ad-a965-4faa-8c90-b827a5332064"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
-              id="0f4dd569-5616-43ec-a97d-e41c31fc0330" name="Steering LH " target="#38d00561-de4f-4806-928d-84ecdaaa3077"
+              id="0f4dd569-5616-43ec-a97d-e41c31fc0330" name="Steering LH" target="#38d00561-de4f-4806-928d-84ecdaaa3077"
               source="#757b5840-ab02-4669-8788-6d646a152479"/>
           <ownedFunctionalExchanges xsi:type="org.polarsys.capella.core.data.fa:FunctionalExchange"
               id="b2a1457a-1c4b-4c79-abfe-b97dddaaf31e" name="Sync Angle to LH Knuckle"
