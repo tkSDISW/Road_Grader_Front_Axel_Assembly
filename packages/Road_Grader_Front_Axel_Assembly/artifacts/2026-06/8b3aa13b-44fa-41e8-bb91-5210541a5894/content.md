@@ -429,3 +429,40 @@ A symmetric equivalent should also be considered for Steering Knuckle LH once th
 ### Still open
 - Steering Knuckle LH: create symmetric function Deflect left wheel to steering angle and reallocate away from SA-era Actuate steering cylinder
 
+---
+
+## 2026-06-15T11:28:57Z — milestone
+
+## Session: [LAB] Camber Structure and Functions — Full Exchange Naming (Re-applied)
+
+Model was recreated by engineer — all patches re-applied against fresh model on clone.
+
+### Patch applied
+| Commit | Change |
+|---|---|
+| 2a1621f4 | Named 11 exchanges, fixed 2 typos — full exchange naming complete |
+
+### All exchanges now named
+
+| UUID | Name | Type |
+|---|---|---|
+| 29a24d86 | Hydraulic Pressure to RH Cylinder | FunctionalExchange |
+| 5db7e7b2 | Hydraulic Pressure to LH Cylinder | FunctionalExchange |
+| b2a1457a | Sync Angle to LH Knuckle | FunctionalExchange |
+| 823f7a24 | RH Knuckle Rotation Output | FunctionalExchange |
+| 8347bcff | LH Knuckle Rotation Output | FunctionalExchange |
+| 01b135a5 | RH Steering Angle Delivered | FunctionalExchange |
+| e4e584f9 | LH Steering Angle Delivered | FunctionalExchange |
+| faf83f78 | Constrain R Steering Angle | FunctionalExchange (typo fixed) |
+| 10e15ca5 | Camber Extend Signal | FunctionalExchange (new) |
+| 0e5234da | Camber Retract Signal | FunctionalExchange (new) |
+| 9a37a68b | Hydraulic Supply to LH Cylinder | ComponentExchange |
+| a60285ee | Hydraulic Supply to RH Cylinder | ComponentExchange |
+| 3b5ed0e4 | Camber Extend Supply | ComponentExchange |
+| b1f3e50f | Receive L Steering Angle | LogicalFunction (typo fixed) |
+
+### New diagram content observed vs previous session
+- Two-way valve now fully modeled with separate Extend/Retract functional exchanges and Extend Supply / Camber Hydraulic Retract component exchanges
+- Wheel Rotation LH (1db1eb0b) correctly renamed by engineer from Steering Angle Output
+- All exchanges in [LAB] Camber Structure and Functions confirmed fully named
+
