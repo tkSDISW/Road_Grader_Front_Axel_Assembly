@@ -5253,7 +5253,7 @@
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="d241f76e-550d-4b6c-82cf-1a153f77858a" description="Right-hand kingpin and knuckle assembly. Slave element driven by the tie rod to deflect the right wheel in coordination with the left knuckle."
-              name="Steering Knuckle RH" nature="BEHAVIOR">
+              name="Steering Knuckle RH" nature="BEHAVIOR" appliedPropertyValueGroups="#865638dd-2e45-422a-a37d-72877ea3d131">
             <ownedPropertyValueGroups xsi:type="org.polarsys.capella.core.data.capellacore:PropertyValueGroup"
                 id="865638dd-2e45-422a-a37d-72877ea3d131" name="Maximum Steering Angle">
               <ownedPropertyValues xsi:type="org.polarsys.capella.core.data.capellacore:StringPropertyValue"
