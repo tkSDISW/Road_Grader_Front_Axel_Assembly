@@ -16,7 +16,7 @@
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.polarsys.capella.core.sirius.analysis/description/logical.odesign#//@ownedViewpoints[name='Logical%20Architecture']/@ownedRepresentations[name='Logical%20Architecture%20Blank']"/>
         <target xmi:type="org.polarsys.capella.core.data.la:LogicalComponentPkg" href="Road_Grader_Front_Axel_Assembly.capella#c0c47829-de12-4448-93b2-858c390c1ca8"/>
       </ownedRepresentationDescriptors>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_wtO_FmXHEfGKRN7WSSYiFg" name="[LAB] Steering Structure and Functions" repPath="#_wtNwEGXHEfGKRN7WSSYiFg" changeId="1781614303700">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_wtO_FmXHEfGKRN7WSSYiFg" name="[LAB] Steering Structure and Functions" repPath="#_wtNwEGXHEfGKRN7WSSYiFg" changeId="1781623484460">
         <eAnnotations xmi:type="description:DAnnotation" uid="_wtNJAGXHEfGKRN7WSSYiFg" source="https://www.polarsys.org/capella/dannotation/DesactivatedFilters">
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wtUdwGXHEfGKRN7WSSYiFg" key="hide.computed.component.exchanges.filter" value="true"/>
           <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wtUdwWXHEfGKRN7WSSYiFg" key="hide.computed.physical.links.filter" value="true"/>
@@ -6262,7 +6262,7 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wtO_HWXHEfGKRN7WSSYiFg"/>
           </children>
           <styles xmi:type="notation:ShapeStyle" xmi:id="_wtO_HmXHEfGKRN7WSSYiFg" fontName="Segoe UI" fontHeight="8"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wtO_H2XHEfGKRN7WSSYiFg" x="740" y="37" width="311" height="117"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wtO_H2XHEfGKRN7WSSYiFg" x="730" y="60" width="311" height="117"/>
         </children>
         <children xmi:type="notation:Node" xmi:id="_wtO_IGXHEfGKRN7WSSYiFg" type="2002" element="_wtO-MGXHEfGKRN7WSSYiFg">
           <children xmi:type="notation:Node" xmi:id="_wtO_IWXHEfGKRN7WSSYiFg" type="5006"/>
