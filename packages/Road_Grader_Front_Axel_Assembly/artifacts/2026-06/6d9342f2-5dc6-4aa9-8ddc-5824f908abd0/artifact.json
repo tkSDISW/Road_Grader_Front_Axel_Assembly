@@ -1,0 +1,17 @@
+{
+  "artifact_id": "6d9342f2-5dc6-4aa9-8ddc-5824f908abd0",
+  "name": "routine_def — Specification for Cousin Implementation",
+  "type": "text",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-16T14:26:00.585217Z",
+  "updated_at": "2026-06-16T14:26:00.585254Z",
+  "tags": [
+    "routine_def",
+    "specification",
+    "cousin",
+    "architecture",
+    "implementation"
+  ],
+  "source_tool": "SE Knowledge Partner",
+  "lineage": []
+}

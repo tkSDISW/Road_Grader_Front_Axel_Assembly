@@ -54,5 +54,20 @@
       "LA",
       "analysis"
     ]
+  },
+  "6d9342f2-5dc6-4aa9-8ddc-5824f908abd0": {
+    "type": "text",
+    "name": "routine_def \u2014 Specification for Cousin Implementation",
+    "package_name": "Road_Grader_Front_Axel_Assembly",
+    "path": "packages/Road_Grader_Front_Axel_Assembly/artifacts/2026-06/6d9342f2-5dc6-4aa9-8ddc-5824f908abd0",
+    "created_at": "2026-06-16T14:26:00.585217+00:00",
+    "updated_at": "2026-06-16T14:26:00.585254+00:00",
+    "tags": [
+      "routine_def",
+      "specification",
+      "cousin",
+      "architecture",
+      "implementation"
+    ]
   }
 }
