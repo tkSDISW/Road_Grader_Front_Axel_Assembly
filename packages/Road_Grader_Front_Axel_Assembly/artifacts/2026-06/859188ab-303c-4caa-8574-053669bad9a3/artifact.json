@@ -1,0 +1,16 @@
+{
+  "artifact_id": "859188ab-303c-4caa-8574-053669bad9a3",
+  "name": "prompt_def: FMEA from Functional Chain",
+  "type": "text",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-16T14:09:57.905458Z",
+  "updated_at": "2026-06-16T14:09:57.905489Z",
+  "tags": [
+    "prompt_def",
+    "fmea",
+    "functional-chain",
+    "analysis"
+  ],
+  "source_tool": "SE Knowledge Partner",
+  "lineage": []
+}
