@@ -1,0 +1,18 @@
+{
+  "artifact_id": "d6aeb784-0f36-4ff3-8be0-ac218cee4769",
+  "name": "Continuous Systems Integration and Deployment (CSID) — Vision",
+  "type": "text",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-16T14:30:52.521733Z",
+  "updated_at": "2026-06-16T14:30:52.521764Z",
+  "tags": [
+    "csid",
+    "vision",
+    "routine_def",
+    "pipeline",
+    "paper",
+    "architecture"
+  ],
+  "source_tool": "SE Knowledge Partner",
+  "lineage": []
+}

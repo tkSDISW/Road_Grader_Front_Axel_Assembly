@@ -69,5 +69,21 @@
       "architecture",
       "implementation"
     ]
+  },
+  "d6aeb784-0f36-4ff3-8be0-ac218cee4769": {
+    "type": "text",
+    "name": "Continuous Systems Integration and Deployment (CSID) \u2014 Vision",
+    "package_name": "Road_Grader_Front_Axel_Assembly",
+    "path": "packages/Road_Grader_Front_Axel_Assembly/artifacts/2026-06/d6aeb784-0f36-4ff3-8be0-ac218cee4769",
+    "created_at": "2026-06-16T14:30:52.521733+00:00",
+    "updated_at": "2026-06-16T14:30:52.521764+00:00",
+    "tags": [
+      "csid",
+      "vision",
+      "routine_def",
+      "pipeline",
+      "paper",
+      "architecture"
+    ]
   }
 }
