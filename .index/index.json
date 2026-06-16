@@ -39,5 +39,20 @@
       "functional-chain",
       "analysis"
     ]
+  },
+  "09e17c34-05ca-488e-b251-52c6e6e6387f": {
+    "type": "text",
+    "name": "FMEA \u2014 Steering Control Functional Chain",
+    "package_name": "Road_Grader_Front_Axel_Assembly",
+    "path": "packages/Road_Grader_Front_Axel_Assembly/artifacts/2026-06/09e17c34-05ca-488e-b251-52c6e6e6387f",
+    "created_at": "2026-06-16T14:17:48.918641+00:00",
+    "updated_at": "2026-06-16T14:17:48.918676+00:00",
+    "tags": [
+      "fmea",
+      "functional-chain",
+      "steering-control",
+      "LA",
+      "analysis"
+    ]
   }
 }
