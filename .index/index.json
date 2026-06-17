@@ -85,5 +85,20 @@
       "paper",
       "architecture"
     ]
+  },
+  "b2a3ae00-8cb9-43c7-9887-700419b4d94d": {
+    "type": "routine_def",
+    "name": "routine_def: fmea_from_functional_chain v1.0",
+    "package_name": "Road_Grader_Front_Axel_Assembly",
+    "path": "packages/Road_Grader_Front_Axel_Assembly/artifacts/2026-06/b2a3ae00-8cb9-43c7-9887-700419b4d94d",
+    "created_at": "2026-06-17T18:30:45.978330+00:00",
+    "updated_at": "2026-06-17T18:30:45.978375+00:00",
+    "tags": [
+      "routine_def",
+      "fmea",
+      "functional-chain",
+      "analysis",
+      "csid"
+    ]
   }
 }

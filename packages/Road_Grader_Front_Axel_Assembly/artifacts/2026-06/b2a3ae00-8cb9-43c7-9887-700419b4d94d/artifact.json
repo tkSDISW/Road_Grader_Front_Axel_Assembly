@@ -1,0 +1,17 @@
+{
+  "artifact_id": "b2a3ae00-8cb9-43c7-9887-700419b4d94d",
+  "name": "routine_def: fmea_from_functional_chain v1.0",
+  "type": "routine_def",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-17T18:30:45.978330Z",
+  "updated_at": "2026-06-17T18:30:45.978375Z",
+  "tags": [
+    "routine_def",
+    "fmea",
+    "functional-chain",
+    "analysis",
+    "csid"
+  ],
+  "source_tool": "SE Knowledge Partner",
+  "lineage": []
+}
