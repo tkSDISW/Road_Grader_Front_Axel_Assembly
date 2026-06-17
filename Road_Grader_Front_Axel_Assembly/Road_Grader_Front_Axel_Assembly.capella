@@ -3338,7 +3338,7 @@
           </ownedComponentRealizations>
         </ownedLogicalComponents>
         <ownedLogicalComponents xsi:type="org.polarsys.capella.core.data.la:LogicalComponent"
-            id="2ce26a27-5448-41e4-a4a6-cf22755d91a2" name="Hydraulic System" description="The vehicle hydraulic circuit that supplies pressurised fluid to the steering cylinder. Acts as the energy source for all active steering functions."
+            id="2ce26a27-5448-41e4-a4a6-cf22755d91a2" name="Hydraulic System" description="The vehicle hydraulic circuit that supplies pressurised fluid to the steering cylinders and camber actuator. Acts as the energy source for all active steering and camber control functions. Contains the Steering Hydraulic Valve and Camber Valve Assembly as sub-components."
             actor="true">
           <ownedExtensions xsi:type="smw:TcItemRevision" id="4621531a-6050-4856-a228-1aeeef0f5be0"
               tcuid="g_gpyj3J4nxmPD" stableTcId="QGkpyj3J4nxmPD" itemId="209339" revisionId="A"/>
