@@ -1,0 +1,20 @@
+{
+  "artifact_id": "56796e93-be93-4b08-9595-81267da34f17",
+  "name": "FMEA — Camber Control Functional Chain",
+  "type": "text",
+  "package_name": "Road_Grader_Front_Axel_Assembly",
+  "created_at": "2026-06-17T18:35:32.880456Z",
+  "updated_at": "2026-06-17T18:35:32.880492Z",
+  "tags": [
+    "fmea",
+    "functional-chain",
+    "camber-control",
+    "LA",
+    "analysis"
+  ],
+  "source_tool": "SE Knowledge Partner — routine: fmea_from_functional_chain v1.0",
+  "lineage": [
+    "271a02ad-c196-4ebb-b966-109ab2c8d062",
+    "09e17c34-05ca-488e-b251-52c6e6e6387f"
+  ]
+}
