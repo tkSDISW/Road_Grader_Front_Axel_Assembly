@@ -127,7 +127,9 @@ routine_def:
         - analysis
       bind_as: fmea_artifact
 
-    - type: log_entry
+    - name: "Work Log Entry — FMEA {{ functional_chain_name }}"
+      type: log_entry
+      package: "{{ artifact_package }}"
       entry_type: milestone
       log_book: "{{ work_log.artifact_id }}"
       required: false
@@ -166,21 +168,21 @@ routine_def:
     End Effect | S | O | D | RPN | Recommended Action |
 
     Severity guidance:
-    - Loss of primary function (steering, braking, structural) = S 9–10
-    - Degraded primary function = S 6–8
-    - Loss of secondary function (camber, alignment) = S 5–7
-    - Maintenance / lifecycle degradation = S 2–4
+    - Loss of primary function (steering, braking, structural) = S 9-10
+    - Degraded primary function = S 6-8
+    - Loss of secondary function (camber, alignment) = S 5-7
+    - Maintenance / lifecycle degradation = S 2-4
 
     Occurrence guidance:
-    - Wear items without maintenance schedule = O 5–6
-    - Hydraulic seals in service = O 3–4
-    - Structural fracture in normal use = O 1–2
+    - Wear items without maintenance schedule = O 5-6
+    - Hydraulic seals in service = O 3-4
+    - Structural fracture in normal use = O 1-2
 
     Detection guidance:
-    - Immediate operator sensation = D 2–3
-    - Gradual onset, detectable by inspection = D 4–5
-    - Internal failure, no external indication = D 6–8
-    - Undetectable without disassembly = D 9–10
+    - Immediate operator sensation = D 2-3
+    - Gradual onset, detectable by inspection = D 4-5
+    - Internal failure, no external indication = D 6-8
+    - Undetectable without disassembly = D 9-10
 
     {% if prior_fmea_artifacts %}
     Cross-reference: where this chain shares components with prior FMEAs,
@@ -246,7 +248,7 @@ routine_def:
       gaps_found: 4
       notes: >
         First execution — proved the routine pattern. All 13 functional
-        exchanges analyzed. Hydraulic supply degradation items scored
-        highest (RPN 140). Cylinder seizure items RPN 100 identified as
-        single points of failure. Camber/steering hydraulic competition
-        identified as gap not captured in either chain independently.
+        exchanges analyzed. Hydraulic supply degradation scored highest
+        (RPN 140). Cylinder seizure items RPN 100 identified as single
+        points of failure. Camber/steering hydraulic competition identified
+        as cross-chain gap not captured in either FMEA independently.
