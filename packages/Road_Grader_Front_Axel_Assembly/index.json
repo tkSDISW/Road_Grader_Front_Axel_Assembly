@@ -1,0 +1,142 @@
+{
+  "package": "Road_Grader_Front_Axel_Assembly",
+  "entry_count": 17,
+  "entries": [
+    {
+      "id": "note-0001-f4d469eaec564f31b650ff8f6d5f689a",
+      "type": "milestone",
+      "timestamp": "2026-06-10T21:13:56Z",
+      "title": "## Session: SA Capabilities \u2014 Initial Definition",
+      "tags": [],
+      "file_path": "entries/note-0001-f4d469eaec564f31b650ff8f6d5f689a.md"
+    },
+    {
+      "id": "note-0002-6103aa5ce48148559f28f5dbf5dbbad7",
+      "type": "note",
+      "timestamp": "2026-06-10T23:08:47Z",
+      "title": "## CAD Reference Image Artifact Added",
+      "tags": [],
+      "file_path": "entries/note-0002-6103aa5ce48148559f28f5dbf5dbbad7.md"
+    },
+    {
+      "id": "note-0003-b3dda3723c834c5383612b393ae7421d",
+      "type": "milestone",
+      "timestamp": "2026-06-10T23:41:10Z",
+      "title": "## Session: SA Capabilities \u2014 Cleanup Patches",
+      "tags": [],
+      "file_path": "entries/note-0003-b3dda3723c834c5383612b393ae7421d.md"
+    },
+    {
+      "id": "note-0004-979abb1d5b9c4af89e74729c3dd6234a",
+      "type": "milestone",
+      "timestamp": "2026-06-11T13:15:23Z",
+      "title": "## Session: SA Functions \u2014 Initial Definition",
+      "tags": [],
+      "file_path": "entries/note-0004-979abb1d5b9c4af89e74729c3dd6234a.md"
+    },
+    {
+      "id": "note-0005-c6e78c5b0e5c432f84b2ba2bfdb5c711",
+      "type": "milestone",
+      "timestamp": "2026-06-11T13:27:01Z",
+      "title": "## Session: SA Context Diagram \u2014 Exchange and Port Naming",
+      "tags": [],
+      "file_path": "entries/note-0005-c6e78c5b0e5c432f84b2ba2bfdb5c711.md"
+    },
+    {
+      "id": "note-0006-d4e16464014d476a8fdcdf57ff39a576",
+      "type": "milestone",
+      "timestamp": "2026-06-11T14:12:11Z",
+      "title": "## Session: [SAB] CAP-01 Steering Control \u2014 Functional Excha",
+      "tags": [],
+      "file_path": "entries/note-0006-d4e16464014d476a8fdcdf57ff39a576.md"
+    },
+    {
+      "id": "note-0007-bc83fe1d7df341e5bb4a652d8497276c",
+      "type": "milestone",
+      "timestamp": "2026-06-11T15:46:19Z",
+      "title": "## Session: LA Transition \u2014 CAP-01 Steering Control",
+      "tags": [],
+      "file_path": "entries/note-0007-bc83fe1d7df341e5bb4a652d8497276c.md"
+    },
+    {
+      "id": "note-0008-e5219f14fbcb489a89ca37ac2304e2f5",
+      "type": "milestone",
+      "timestamp": "2026-06-11T15:50:08Z",
+      "title": "## Session: LA CAP-01 \u2014 Logical Functions and Allocations",
+      "tags": [],
+      "file_path": "entries/note-0008-e5219f14fbcb489a89ca37ac2304e2f5.md"
+    },
+    {
+      "id": "note-0009-70ae3332f6fb4cd49e57e9333f594ff5",
+      "type": "milestone",
+      "timestamp": "2026-06-11T18:05:14Z",
+      "title": "## Session: [LAB] Structure \u2014 Typo Fixes and Exchange Naming",
+      "tags": [],
+      "file_path": "entries/note-0009-70ae3332f6fb4cd49e57e9333f594ff5.md"
+    },
+    {
+      "id": "dec-0001-e8f40eba7ed04e6ead14d5cdb5c8d191",
+      "type": "decision",
+      "timestamp": "2026-06-11T18:13:40Z",
+      "title": "## Design Decision: Active Camber Sub-System Architecture",
+      "tags": [],
+      "file_path": "entries/dec-0001-e8f40eba7ed04e6ead14d5cdb5c8d191.md"
+    },
+    {
+      "id": "note-0010-cc3d2aa819cf44b395dbbca174ed26fd",
+      "type": "issue",
+      "timestamp": "2026-06-11T19:56:53Z",
+      "title": "## MODEL ISSUE: Steering Knuckle RH \u2014 no logical function al",
+      "tags": [],
+      "file_path": "entries/note-0010-cc3d2aa819cf44b395dbbca174ed26fd.md"
+    },
+    {
+      "id": "note-0011-bba5830c935640cbb169ebadaefba6d3",
+      "type": "milestone",
+      "timestamp": "2026-06-11T19:58:24Z",
+      "title": "## ISSUE RESOLVED: Steering Knuckle RH \u2014 missing function al",
+      "tags": [],
+      "file_path": "entries/note-0011-bba5830c935640cbb169ebadaefba6d3.md"
+    },
+    {
+      "id": "note-0012-a7672bf8674948efaf93451bb1db5c0b",
+      "type": "milestone",
+      "timestamp": "2026-06-15T11:28:57Z",
+      "title": "## Session: [LAB] Camber Structure and Functions \u2014 Full Exch",
+      "tags": [],
+      "file_path": "entries/note-0012-a7672bf8674948efaf93451bb1db5c0b.md"
+    },
+    {
+      "id": "note-0013-ef18a6daf75942959f7dd8bdd37a229d",
+      "type": "milestone",
+      "timestamp": "2026-06-15T11:32:37Z",
+      "title": "## Session: [LAB] Steering Structure and Functions \u2014 Review ",
+      "tags": [],
+      "file_path": "entries/note-0013-ef18a6daf75942959f7dd8bdd37a229d.md"
+    },
+    {
+      "id": "dec-0002-200a2b14c44149cca4327e0b95cc5a43",
+      "type": "decision",
+      "timestamp": "2026-06-15T12:09:30Z",
+      "title": "## Decision: Cylinder Displacement LH excluded from Steering",
+      "tags": [],
+      "file_path": "entries/dec-0002-200a2b14c44149cca4327e0b95cc5a43.md"
+    },
+    {
+      "id": "note-0014-aee0621a276f4c50bd65543570d9508c",
+      "type": "milestone",
+      "timestamp": "2026-06-17T17:40:35Z",
+      "title": "## Session: Demo Prep \u2014 LA Diagram Review and Model Updates",
+      "tags": [],
+      "file_path": "entries/note-0014-aee0621a276f4c50bd65543570d9508c.md"
+    },
+    {
+      "id": "note-0015-13f8ec303f3a48689b0ead4c1d2697bd",
+      "type": "milestone",
+      "timestamp": "2026-06-17T18:35:45Z",
+      "title": "## Routine Execution: fmea_from_functional_chain \u2014 Camber Co",
+      "tags": [],
+      "file_path": "entries/note-0015-13f8ec303f3a48689b0ead4c1d2697bd.md"
+    }
+  ]
+}
